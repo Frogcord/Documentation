@@ -41,10 +41,22 @@ export default {
     ]
   ],
   "themeConfig": {
+    "colorMode": {
+      "defaultMode": "dark",
+      "disableSwitch": false,
+      "respectPrefersColorScheme": false
+    },
+    "announcementBar": {
+      "id": "support_us",
+      "content": "本文檔網站正在慢慢成型中，歡迎加入<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"#\">我們的Discord群組</a>來獲取最新消息。",
+      "backgroundColor": "#696969",
+      "textColor": "#ffffe0",
+      "isCloseable": true
+    },
     "navbar": {
       "title": "Backup Mode",
       "logo": {
-        "alt": "Backup Mode I",
+        "alt": "Backup Mode Logo",
         "src": "img/logo.svg"
       },
       "items": [
@@ -52,7 +64,7 @@ export default {
           "type": "doc",
           "docId": "intro",
           "position": "left",
-          "label": "教學"
+          "label": "教學文檔"
         },
         {
           "to": "/blog",
@@ -99,7 +111,7 @@ export default {
           ]
         }
       ],
-      "copyright": "版權所有 ©️ 2022–2022 Backup Mode 團隊"
+      "copyright": "The entirety of this site is protected by copyright ©️ 2021–2022 Backup Mode."
     },
     "prism": {
       "theme": {
@@ -304,11 +316,6 @@ export default {
           }
         }
       ]
-    },
-    "colorMode": {
-      "defaultMode": "light",
-      "disableSwitch": false,
-      "respectPrefersColorScheme": false
     },
     "docs": {
       "versionPersistence": "localStorage",

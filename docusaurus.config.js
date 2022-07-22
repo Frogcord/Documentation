@@ -29,6 +29,12 @@ const config = {
 
   presets: [
     [
+      '@docusaurus/preset-classic',
+      {
+        debug: true, // 在生产环境启用插件
+      },
+    ],
+    [
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
@@ -56,10 +62,23 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: false,
+        respectPrefersColorScheme: false,
+      },
+      announcementBar: {
+        id: 'support_us',
+        content:
+          '本文檔網站正在慢慢成型中，歡迎加入<a target="_blank" rel="noopener noreferrer" href="#">我們的Discord群組</a>來獲取最新消息。',
+        backgroundColor: '#696969',
+        textColor: '#ffffe0',
+        isCloseable: true,
+      },
       navbar: {
         title: 'Backup Mode',
         logo: {
-          alt: 'Backup Mode I',
+          alt: 'Backup Mode Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -67,7 +86,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: '教學',
+            label: '教學文檔',
           },
           {to: '/blog', label: '部落格', position: 'left'},
           {
@@ -107,7 +126,7 @@ const config = {
             ],
           },
         ],
-        copyright: `版權所有 ©️ 2022–${new Date().getFullYear()} Backup Mode 團隊`,
+        copyright: `The entirety of this site is protected by copyright ©️ 2021–${new Date().getFullYear()} Backup Mode.`,
       },
       prism: {
         theme: lightCodeTheme,
