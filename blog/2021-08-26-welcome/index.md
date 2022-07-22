@@ -1,7 +1,7 @@
 ---
 slug: welcome
 title: Welcome
-authors: [Kevin, yangshun]
+authors: [Kevin]
 tags: [facebook, hello, docusaurus]
 ---
 

@@ -1,7 +1,7 @@
 ---
 slug: long-blog-post
 title: Long Blog Post
-authors: Kevin
+authors: [Kevin]
 tags: [hello, docusaurus]
 ---
 
