@@ -1,7 +1,7 @@
 [build]
   base    = ""
   publish = "website/build"
-  command = "yarn && cd website && yarn build"
+  command = "yarn && yarn build"
 
 [context.production.environment]
   NODE_VERSION = "16.15.0"
