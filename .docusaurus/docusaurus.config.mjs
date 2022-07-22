@@ -48,7 +48,7 @@ export default {
     },
     "announcementBar": {
       "id": "support_us",
-      "content": "本文檔網站正在慢慢成型中，歡迎加入<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"#\">我們的Discord群組</a>來獲取最新消息。",
+      "content": "本文檔網站正在慢慢成型中，歡迎加入<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://discord.backupmode.xyz/\">我們的Discord群組</a>來獲取最新消息。",
       "backgroundColor": "#696969",
       "textColor": "#ffffe0",
       "isCloseable": true
