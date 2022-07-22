@@ -14,9 +14,9 @@
           "editUrlLocalized": "https://github.com/Backup-Mode/Documentation/i18n/zh-TW/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "C:\\Users\\戴梓恆\\Documents\\GitHub\\Documentation\\sidebars.js",
-          "contentPath": "C:\\Users\\戴梓恆\\Documents\\GitHub\\Documentation\\docs",
-          "contentPathLocalized": "C:\\Users\\戴梓恆\\Documents\\GitHub\\Documentation\\i18n\\zh-TW\\docusaurus-plugin-content-docs\\current",
+          "sidebarFilePath": "D:\\Backup-Mode\\Documentation\\sidebars.js",
+          "contentPath": "D:\\Backup-Mode\\Documentation\\docs",
+          "contentPathLocalized": "D:\\Backup-Mode\\Documentation\\i18n\\zh-TW\\docusaurus-plugin-content-docs\\current",
           "docs": [
             {
               "unversionedId": "commands/commands",

@@ -27,7 +27,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "C:\\Users\\戴梓恆\\Documents\\GitHub\\Documentation\\sidebars.js",
+          "sidebarPath": "D:\\Backup-Mode\\Documentation\\sidebars.js",
           "editUrl": "https://github.com/Backup-Mode/Documentation"
         },
         "blog": {
@@ -35,7 +35,7 @@ export default {
           "editUrl": "https://github.com/Backup-Mode/Documentation"
         },
         "theme": {
-          "customCss": "C:\\Users\\戴梓恆\\Documents\\GitHub\\Documentation\\src\\css\\custom.css"
+          "customCss": "D:\\Backup-Mode\\Documentation\\src\\css\\custom.css"
         }
       }
     ]
