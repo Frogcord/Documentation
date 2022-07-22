@@ -109,11 +109,11 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '7bb'),
+    component: ComponentCreator('/docs', '24e'),
     routes: [
       {
         path: '/docs/',
-        component: ComponentCreator('/docs/', '2bf'),
+        component: ComponentCreator('/docs/', 'c29'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

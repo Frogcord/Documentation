@@ -1,8 +1,8 @@
 {
   "unversionedId": "commands/commands",
   "id": "commands/commands",
-  "title": "入門介紹",
-  "description": "讓我們在不到 5 分鐘的時間內了解 Backup Mode 的運作。",
+  "title": "如何使用機器人",
+  "description": "使用Backup Mode的方法非常簡單，因為現在所有指令皆已改成 斜線指令 ，所以只需要在訊息輸入框中打上 / 就會有機器人的所有指令了喔!",
   "source": "@site/docs/commands/commands.md",
   "sourceDirName": "commands",
   "slug": "/commands",
