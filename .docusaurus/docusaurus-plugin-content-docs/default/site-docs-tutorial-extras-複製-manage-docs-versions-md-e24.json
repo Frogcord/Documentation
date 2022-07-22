@@ -1,0 +1,27 @@
+{
+  "unversionedId": "tutorial-extras - 複製/manage-docs-versions",
+  "id": "tutorial-extras - 複製/manage-docs-versions",
+  "title": "Manage Docs Versions",
+  "description": "Docusaurus can manage multiple versions of your docs.",
+  "source": "@site/docs\\tutorial-extras - 複製\\manage-docs-versions.md",
+  "sourceDirName": "tutorial-extras - 複製",
+  "slug": "/tutorial-extras - 複製/manage-docs-versions",
+  "permalink": "/docs/tutorial-extras - 複製/manage-docs-versions",
+  "draft": false,
+  "editUrl": "https://github.com/Backup-Mode/Documentation/docs/tutorial-extras - 複製/manage-docs-versions.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tutorial - Extras",
+    "permalink": "/docs/category/tutorial---extras-1"
+  },
+  "next": {
+    "title": "Translate your site",
+    "permalink": "/docs/tutorial-extras - 複製/translate-your-site"
+  }
+}

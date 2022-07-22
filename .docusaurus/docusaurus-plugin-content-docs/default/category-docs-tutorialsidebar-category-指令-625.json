@@ -1,0 +1,11 @@
+{
+  "title": "指令",
+  "slug": "/category/指令",
+  "permalink": "/docs/category/指令",
+  "navigation": {
+    "next": {
+      "title": "commands",
+      "permalink": "/docs/commands/"
+    }
+  }
+}

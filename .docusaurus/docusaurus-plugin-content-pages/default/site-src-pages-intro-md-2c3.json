@@ -1,0 +1,10 @@
+{
+  "type": "mdx",
+  "permalink": "/intro",
+  "source": "@site/src/pages/intro.md",
+  "title": "入門介紹",
+  "description": "讓我們在不到 5 分鐘的時間內了解 Backup Mode 的運作。",
+  "frontMatter": {
+    "sidebar_position": 1
+  }
+}
