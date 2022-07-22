@@ -59,7 +59,7 @@ const config = {
       navbar: {
         title: 'Backup Mode',
         logo: {
-          alt: 'Backup Mode Logo',
+          alt: 'Backup Mode I',
           src: 'img/logo.svg',
         },
         items: [
@@ -93,19 +93,6 @@ const config = {
             ],
           },
           {
-            title: '社群',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discord.backupmode.xyz/',
-              },
-            ],
-          },
-          {
             title: '更多區域',
             items: [
               {
@@ -119,7 +106,7 @@ const config = {
             ],
           },
         ],
-        copyright: `The entirety of this site is protected by copyright ©️ 2021–${new Date().getFullYear()} Backup Mode.`,
+        copyright: `版權所有 ©️ 2022–${new Date().getFullYear()} Backup Mode 團隊`,
       },
       prism: {
         theme: lightCodeTheme,
