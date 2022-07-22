@@ -24,7 +24,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'zh-Hans'],
   },
 
   presets: [
@@ -70,6 +70,9 @@ const config = {
             label: '教學',
           },
           {to: '/blog', label: '部落格', position: 'left'},
+          {
+            type: 'localeDropdown',
+          },
           {
             href: 'https://github.com/Backup-Mode/Documentation',
             label: 'GitHub',

@@ -16,7 +16,8 @@ export default {
   "i18n": {
     "defaultLocale": "en",
     "locales": [
-      "en"
+      "en",
+      "zh-Hans"
     ],
     "path": "i18n",
     "localeConfigs": {}
@@ -26,7 +27,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "D:\\CloudXact資料\\Discord BOT\\Backup Mode 網站\\文檔教學\\docs\\sidebars.js",
+          "sidebarPath": "C:\\Users\\戴梓恆\\Documents\\GitHub\\Documentation\\sidebars.js",
           "editUrl": "https://github.com/Backup-Mode/Documentation"
         },
         "blog": {
@@ -34,7 +35,7 @@ export default {
           "editUrl": "https://github.com/Backup-Mode/Documentation"
         },
         "theme": {
-          "customCss": "D:\\CloudXact資料\\Discord BOT\\Backup Mode 網站\\文檔教學\\docs\\src\\css\\custom.css"
+          "customCss": "C:\\Users\\戴梓恆\\Documents\\GitHub\\Documentation\\src\\css\\custom.css"
         }
       }
     ]
@@ -74,7 +75,7 @@ export default {
           "items": [
             {
               "label": "入門",
-              "to": "/docs/intro"
+              "to": "/docs"
             }
           ]
         },
