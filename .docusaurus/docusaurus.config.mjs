@@ -14,10 +14,10 @@ export default {
   "organizationName": "Backup-Mode",
   "projectName": "Documentation",
   "i18n": {
-    "defaultLocale": "en",
+    "defaultLocale": "zh-TW",
     "locales": [
-      "en",
-      "zh-Hans"
+      "zh-TW",
+      "en"
     ],
     "path": "i18n",
     "localeConfigs": {}
@@ -44,7 +44,7 @@ export default {
     "navbar": {
       "title": "Backup Mode",
       "logo": {
-        "alt": "Backup Mode Logo",
+        "alt": "Backup Mode I",
         "src": "img/logo.svg"
       },
       "items": [
@@ -58,6 +58,12 @@ export default {
           "to": "/blog",
           "label": "部落格",
           "position": "left"
+        },
+        {
+          "type": "localeDropdown",
+          "position": "right",
+          "dropdownItemsBefore": [],
+          "dropdownItemsAfter": []
         },
         {
           "href": "https://github.com/Backup-Mode/Documentation",
@@ -80,19 +86,6 @@ export default {
           ]
         },
         {
-          "title": "社群",
-          "items": [
-            {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
-            },
-            {
-              "label": "Discord",
-              "href": "https://discord.backupmode.xyz/"
-            }
-          ]
-        },
-        {
           "title": "更多區域",
           "items": [
             {
@@ -106,7 +99,7 @@ export default {
           ]
         }
       ],
-      "copyright": "The entirety of this site is protected by copyright ©️ 2021–2022 Backup Mode."
+      "copyright": "版權所有 ©️ 2022–2022 Backup Mode 團隊"
     },
     "prism": {
       "theme": {

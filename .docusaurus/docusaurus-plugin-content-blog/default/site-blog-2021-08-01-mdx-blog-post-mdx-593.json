@@ -5,7 +5,7 @@
   "title": "MDX Blog Post",
   "description": "Blog posts support Docusaurus Markdown features, such as MDX.",
   "date": "2021-08-01T00:00:00.000Z",
-  "formattedDate": "August 1, 2021",
+  "formattedDate": "2021年8月1日",
   "tags": [
     {
       "label": "docusaurus",
@@ -16,18 +16,18 @@
   "hasTruncateMarker": false,
   "authors": [
     {
-      "name": "Sébastien Lorber",
-      "title": "Docusaurus maintainer",
-      "url": "https://sebastienlorber.com",
-      "imageURL": "https://github.com/slorber.png",
-      "key": "slorber"
+      "name": "Kevin",
+      "title": "創辦人",
+      "url": "https://github.com/Kevin28576",
+      "imageURL": "https://cdn.discordapp.com/avatars/747071881169076264/a_da94757b4885cb43abbc2428d0830102.gif?size=1024",
+      "key": "Kevin"
     }
   ],
   "frontMatter": {
     "slug": "mdx-blog-post",
     "title": "MDX Blog Post",
     "authors": [
-      "slorber"
+      "Kevin"
     ],
     "tags": [
       "docusaurus"

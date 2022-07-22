@@ -1,0 +1,15 @@
+{
+  "title": "Tutorial - Extras",
+  "slug": "/category/tutorial---extras",
+  "permalink": "/zh-Hans/docs/category/tutorial---extras",
+  "navigation": {
+    "previous": {
+      "title": "Congratulations!",
+      "permalink": "/zh-Hans/docs/tutorial-basics/congratulations"
+    },
+    "next": {
+      "title": "Manage Docs Versions",
+      "permalink": "/zh-Hans/docs/tutorial-extras/manage-docs-versions"
+    }
+  }
+}

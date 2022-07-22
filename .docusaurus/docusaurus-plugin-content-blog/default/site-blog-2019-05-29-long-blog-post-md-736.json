@@ -5,7 +5,7 @@
   "title": "Long Blog Post",
   "description": "This is the summary of a very long blog post,",
   "date": "2019-05-29T00:00:00.000Z",
-  "formattedDate": "May 29, 2019",
+  "formattedDate": "2019年5月29日",
   "tags": [
     {
       "label": "hello",
@@ -20,17 +20,17 @@
   "hasTruncateMarker": true,
   "authors": [
     {
-      "name": "Endilie Yacop Sucipto",
-      "title": "Maintainer of Docusaurus",
-      "url": "https://github.com/endiliey",
-      "imageURL": "https://github.com/endiliey.png",
-      "key": "endi"
+      "name": "Kevin",
+      "title": "創辦人",
+      "url": "https://github.com/Kevin28576",
+      "imageURL": "https://cdn.discordapp.com/avatars/747071881169076264/a_da94757b4885cb43abbc2428d0830102.gif?size=1024",
+      "key": "Kevin"
     }
   ],
   "frontMatter": {
     "slug": "long-blog-post",
     "title": "Long Blog Post",
-    "authors": "endi",
+    "authors": "Kevin",
     "tags": [
       "hello",
       "docusaurus"
