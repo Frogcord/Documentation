@@ -23,7 +23,7 @@ Backup Mode的所有功能將會在此文檔中介紹及說明。
 
 :::caution 請注意
 
-邀請完成後您可以選擇不繼續往下看，直接至 [本頁面](./create-a-page.md) 來查看所有指令。
+邀請完成後您可以選擇不繼續往下看，直接至 [本頁面](./commands) 來查看所有指令。
 
 :::
 
@@ -33,7 +33,7 @@ Backup Mode的所有功能將會在此文檔中介紹及說明。
 
 ## 如何使用Backup Mode?
 
-您可以至 [本頁面](./create-a-page.md) 來查看Backup Mode的所有指令。
+您可以至 [本頁面](./commands) 來查看Backup Mode的所有指令。
 
 :::info 貼心小提示
 
