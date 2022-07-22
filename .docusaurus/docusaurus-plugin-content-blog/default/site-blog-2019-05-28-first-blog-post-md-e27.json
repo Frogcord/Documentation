@@ -20,23 +20,19 @@
   "hasTruncateMarker": false,
   "authors": [
     {
-      "name": "Gao Wei",
-      "title": "Docusaurus Core Team",
-      "url": "https://github.com/wgao19",
-      "image_url": "https://github.com/wgao19.png",
-      "imageURL": "https://github.com/wgao19.png"
+      "name": "Kevin",
+      "title": "創辦人",
+      "url": "https://github.com/Kevin28576",
+      "imageURL": "https://cdn.discordapp.com/avatars/747071881169076264/a_da94757b4885cb43abbc2428d0830102.gif?size=1024",
+      "key": "Kevin"
     }
   ],
   "frontMatter": {
     "slug": "first-blog-post",
     "title": "First Blog Post",
-    "authors": {
-      "name": "Gao Wei",
-      "title": "Docusaurus Core Team",
-      "url": "https://github.com/wgao19",
-      "image_url": "https://github.com/wgao19.png",
-      "imageURL": "https://github.com/wgao19.png"
-    },
+    "authors": [
+      "Kevin"
+    ],
     "tags": [
       "hola",
       "docusaurus"

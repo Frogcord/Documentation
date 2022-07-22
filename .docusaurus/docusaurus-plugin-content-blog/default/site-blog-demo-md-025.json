@@ -16,38 +16,18 @@
   "hasTruncateMarker": false,
   "authors": [
     {
-      "name": "Joel Marcey",
-      "title": "Docusaurus 1的共同創造者",
-      "url": "https://github.com/JoelMarcey",
-      "image_url": "https://github.com/JoelMarcey.png",
-      "imageURL": "https://github.com/JoelMarcey.png"
-    },
-    {
-      "name": "Sébastien Lorber",
-      "title": "Docusaurus 維護者",
-      "url": "https://sebastienlorber.com",
-      "image_url": "https://github.com/slorber.png",
-      "imageURL": "https://github.com/slorber.png"
+      "name": "Kevin",
+      "title": "創辦人",
+      "url": "https://github.com/Kevin28576",
+      "imageURL": "https://cdn.discordapp.com/avatars/747071881169076264/a_da94757b4885cb43abbc2428d0830102.gif?size=1024",
+      "key": "Kevin"
     }
   ],
   "frontMatter": {
     "slug": "demo",
     "title": "演示文章!",
     "authors": [
-      {
-        "name": "Joel Marcey",
-        "title": "Docusaurus 1的共同創造者",
-        "url": "https://github.com/JoelMarcey",
-        "image_url": "https://github.com/JoelMarcey.png",
-        "imageURL": "https://github.com/JoelMarcey.png"
-      },
-      {
-        "name": "Sébastien Lorber",
-        "title": "Docusaurus 維護者",
-        "url": "https://sebastienlorber.com",
-        "image_url": "https://github.com/slorber.png",
-        "imageURL": "https://github.com/slorber.png"
-      }
+      "Kevin"
     ],
     "tags": [
       "演示文章"

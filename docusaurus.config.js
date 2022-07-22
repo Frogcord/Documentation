@@ -29,12 +29,6 @@ const config = {
 
   presets: [
     [
-      '@docusaurus/preset-classic',
-      {
-        debug: true, // 在生产环境启用插件
-      },
-    ],
-    [
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
