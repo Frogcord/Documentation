@@ -211,7 +211,7 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-24e": {
+  "/docs-526": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---docs-9-b-2-bb7"
@@ -221,6 +221,10 @@
   "/docs/-c29": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-2-b-6-183"
+  },
+  "/docs/backup-32a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-commands-1-b-0-704"
   },
   "/docs/category/tutorial---basics-d44": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -233,6 +237,10 @@
   "/docs/commands-387": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-commandsdd-7-1b9"
+  },
+  "/docs/grateful-8f3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-gratefula-60-aed"
   },
   "/docs/tutorial-basics/congratulations-793": {
     "__comp": "__comp---theme-doc-item-178-a40",

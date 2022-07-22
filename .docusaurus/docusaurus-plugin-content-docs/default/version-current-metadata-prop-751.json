@@ -29,6 +29,39 @@
         ]
       },
       {
+        "type": "link",
+        "label": "備份功能",
+        "href": "/docs/backup",
+        "docId": "backup"
+      },
+      {
+        "type": "link",
+        "label": "感謝名單",
+        "href": "/docs/grateful",
+        "docId": "grateful"
+      },
+      {
+        "type": "category",
+        "label": "Tutorial - Extras",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Manage Docs Versions",
+            "href": "/docs/tutorial-extras/manage-docs-versions",
+            "docId": "tutorial-extras/manage-docs-versions"
+          },
+          {
+            "type": "link",
+            "label": "Translate your site",
+            "href": "/docs/tutorial-extras/translate-your-site",
+            "docId": "tutorial-extras/translate-your-site"
+          }
+        ],
+        "href": "/docs/category/tutorial---extras"
+      },
+      {
         "type": "category",
         "label": "Tutorial - Basics",
         "collapsible": true,
@@ -72,35 +105,26 @@
           }
         ],
         "href": "/docs/category/tutorial---basics"
-      },
-      {
-        "type": "category",
-        "label": "Tutorial - Extras",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "Manage Docs Versions",
-            "href": "/docs/tutorial-extras/manage-docs-versions",
-            "docId": "tutorial-extras/manage-docs-versions"
-          },
-          {
-            "type": "link",
-            "label": "Translate your site",
-            "href": "/docs/tutorial-extras/translate-your-site",
-            "docId": "tutorial-extras/translate-your-site"
-          }
-        ],
-        "href": "/docs/category/tutorial---extras"
       }
     ]
   },
   "docs": {
+    "backup": {
+      "id": "backup",
+      "title": "備份功能",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
     "commands/commands": {
       "id": "commands/commands",
       "title": "如何使用機器人",
       "description": "使用Backup Mode的方法非常簡單，因為現在所有指令皆已改成 斜線指令 ，所以只需要在訊息輸入框中打上 / 就會有機器人的所有指令了喔!",
+      "sidebar": "tutorialSidebar"
+    },
+    "grateful": {
+      "id": "grateful",
+      "title": "感謝名單",
+      "description": "非常感謝以下的所有人、組織、團隊以及廠商的貢獻，否則就沒了現在的Backup Mode。",
       "sidebar": "tutorialSidebar"
     },
     "intro": {

@@ -19,6 +19,34 @@
           "contentPathLocalized": "D:\\Backup-Mode\\Documentation\\i18n\\zh-TW\\docusaurus-plugin-content-docs\\current",
           "docs": [
             {
+              "unversionedId": "backup",
+              "id": "backup",
+              "title": "備份功能",
+              "description": "",
+              "source": "@site/docs/backup.md",
+              "sourceDirName": ".",
+              "slug": "/backup",
+              "permalink": "/docs/backup",
+              "draft": false,
+              "editUrl": "https://github.com/Backup-Mode/Documentation/docs/backup.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3,
+                "slug": "/backup"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "如何使用機器人",
+                "permalink": "/docs/commands"
+              },
+              "next": {
+                "title": "感謝名單",
+                "permalink": "/docs/grateful"
+              }
+            },
+            {
               "unversionedId": "commands/commands",
               "id": "commands/commands",
               "title": "如何使用機器人",
@@ -41,8 +69,36 @@
                 "title": "指令"
               },
               "next": {
-                "title": "Tutorial - Basics",
-                "permalink": "/docs/category/tutorial---basics"
+                "title": "備份功能",
+                "permalink": "/docs/backup"
+              }
+            },
+            {
+              "unversionedId": "grateful",
+              "id": "grateful",
+              "title": "感謝名單",
+              "description": "非常感謝以下的所有人、組織、團隊以及廠商的貢獻，否則就沒了現在的Backup Mode。",
+              "source": "@site/docs/grateful.md",
+              "sourceDirName": ".",
+              "slug": "/grateful",
+              "permalink": "/docs/grateful",
+              "draft": false,
+              "editUrl": "https://github.com/Backup-Mode/Documentation/docs/grateful.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 10,
+              "frontMatter": {
+                "sidebar_position": 10,
+                "slug": "/grateful"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "備份功能",
+                "permalink": "/docs/backup"
+              },
+              "next": {
+                "title": "Tutorial - Extras",
+                "permalink": "/docs/category/tutorial---extras"
               }
             },
             {
@@ -89,10 +145,6 @@
               "previous": {
                 "title": "Deploy your site",
                 "permalink": "/docs/tutorial-basics/deploy-your-site"
-              },
-              "next": {
-                "title": "Tutorial - Extras",
-                "permalink": "/docs/category/tutorial---extras"
               }
             },
             {
@@ -278,6 +330,10 @@
               "previous": {
                 "title": "Manage Docs Versions",
                 "permalink": "/docs/tutorial-extras/manage-docs-versions"
+              },
+              "next": {
+                "title": "Tutorial - Basics",
+                "permalink": "/docs/category/tutorial---basics"
               }
             }
           ],
@@ -300,6 +356,35 @@
                   }
                 ],
                 "link": {}
+              },
+              {
+                "type": "doc",
+                "id": "backup"
+              },
+              {
+                "type": "doc",
+                "id": "grateful"
+              },
+              {
+                "type": "category",
+                "label": "Tutorial - Extras",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "tutorial-extras/manage-docs-versions"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorial-extras/translate-your-site"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "slug": "/category/tutorial---extras",
+                  "permalink": "/docs/category/tutorial---extras"
+                }
               },
               {
                 "type": "category",
@@ -337,27 +422,6 @@
                   "description": "5 minutes to learn the most important Docusaurus concepts.",
                   "slug": "/category/tutorial---basics",
                   "permalink": "/docs/category/tutorial---basics"
-                }
-              },
-              {
-                "type": "category",
-                "label": "Tutorial - Extras",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "tutorial-extras/manage-docs-versions"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "tutorial-extras/translate-your-site"
-                  }
-                ],
-                "link": {
-                  "type": "generated-index",
-                  "slug": "/category/tutorial---extras",
-                  "permalink": "/docs/category/tutorial---extras"
                 }
               }
             ]

@@ -1,0 +1,28 @@
+{
+  "unversionedId": "backup",
+  "id": "backup",
+  "title": "備份功能",
+  "description": "",
+  "source": "@site/docs/backup.md",
+  "sourceDirName": ".",
+  "slug": "/backup",
+  "permalink": "/docs/backup",
+  "draft": false,
+  "editUrl": "https://github.com/Backup-Mode/Documentation/docs/backup.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "slug": "/backup"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "如何使用機器人",
+    "permalink": "/docs/commands"
+  },
+  "next": {
+    "title": "感謝名單",
+    "permalink": "/docs/grateful"
+  }
+}

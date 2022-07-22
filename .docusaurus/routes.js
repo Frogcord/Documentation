@@ -109,11 +109,17 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '24e'),
+    component: ComponentCreator('/docs', '526'),
     routes: [
       {
         path: '/docs/',
         component: ComponentCreator('/docs/', 'c29'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/backup',
+        component: ComponentCreator('/docs/backup', '32a'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -132,6 +138,12 @@ export default [
       {
         path: '/docs/commands',
         component: ComponentCreator('/docs/commands', '387'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/grateful',
+        component: ComponentCreator('/docs/grateful', '8f3'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

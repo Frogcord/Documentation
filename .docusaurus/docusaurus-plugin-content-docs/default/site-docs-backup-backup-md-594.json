@@ -1,14 +1,14 @@
 {
-  "unversionedId": "commands/commands",
-  "id": "commands/commands",
+  "unversionedId": "backup/backup",
+  "id": "backup/backup",
   "title": "如何使用機器人",
   "description": "使用Backup Mode的方法非常簡單，因為現在所有指令皆已改成 斜線指令 ，所以只需要在訊息輸入框中打上 / 就會有機器人的所有指令了喔!",
-  "source": "@site/docs/commands/commands.md",
-  "sourceDirName": "commands",
+  "source": "@site/docs/backup/backup.md",
+  "sourceDirName": "backup",
   "slug": "/commands",
   "permalink": "/docs/commands",
   "draft": false,
-  "editUrl": "https://github.com/Backup-Mode/Documentation/docs/commands/commands.md",
+  "editUrl": "https://github.com/Backup-Mode/Documentation/docs/backup/backup.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
@@ -18,10 +18,10 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "指令"
+    "title": "備份功能"
   },
   "next": {
-    "title": "備份功能",
-    "permalink": "/docs/backup"
+    "title": "Tutorial - Extras",
+    "permalink": "/docs/category/tutorial---extras"
   }
 }

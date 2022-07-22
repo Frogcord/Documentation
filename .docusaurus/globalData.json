@@ -11,8 +11,18 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "backup",
+              "path": "/docs/backup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "commands/commands",
               "path": "/docs/commands",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "grateful",
+              "path": "/docs/grateful",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -61,13 +71,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/tutorial---basics",
-              "path": "/docs/category/tutorial---basics",
+              "id": "/category/tutorial---extras",
+              "path": "/docs/category/tutorial---extras",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/tutorial---extras",
-              "path": "/docs/category/tutorial---extras",
+              "id": "/category/tutorial---basics",
+              "path": "/docs/category/tutorial---basics",
               "sidebar": "tutorialSidebar"
             }
           ],
