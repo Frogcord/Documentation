@@ -859,6 +859,18 @@
         "frontMatter": {
           "title": "Markdown page example"
         }
+      },
+      {
+        "type": "mdx",
+        "permalink": "/privacy",
+        "source": "@site/src/pages/privacy.md",
+        "title": "隱私權保護政策",
+        "description": "此頁面說明了我們的隱私權保護政策。",
+        "frontMatter": {
+          "title": "隱私權保護政策",
+          "description": "此頁面說明了我們的隱私權保護政策。",
+          "hide_table_of_contents": true
+        }
       }
     ]
   },

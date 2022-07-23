@@ -1,0 +1,20 @@
+{
+  "unversionedId": "privacy",
+  "id": "privacy",
+  "title": "privacy",
+  "description": "",
+  "source": "@site/docs/privacy.md",
+  "sourceDirName": ".",
+  "slug": "/privacy",
+  "permalink": "/docs/privacy",
+  "draft": false,
+  "editUrl": "https://github.com/Backup-Mode/Documentation/docs/privacy.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Congratulations!",
+    "permalink": "/docs/tutorial-basics/congratulations"
+  }
+}

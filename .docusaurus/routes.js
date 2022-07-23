@@ -108,6 +108,11 @@ export default [
     exact: true
   },
   {
+    path: '/privacy',
+    component: ComponentCreator('/privacy', '96e'),
+    exact: true
+  },
+  {
     path: '/docs',
     component: ComponentCreator('/docs', '526'),
     routes: [
