@@ -139,8 +139,8 @@ const config = {
                 href: 'https://github.com/Backup-Mode/Documentation',
               },
               {
-                href: 'https://backupmode.xyz/privacy', 
-                label: '隱私權政策', 
+                label: '隱私權保護政策', 
+                to: 'privacy', 
               },
               {
                 href: 'https://backupmode.xyz/tos', 
