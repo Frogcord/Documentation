@@ -103,11 +103,6 @@ export default [
     exact: true
   },
   {
-    path: '/markdown-page',
-    component: ComponentCreator('/markdown-page', '87b'),
-    exact: true
-  },
-  {
     path: '/privacy',
     component: ComponentCreator('/privacy', '96e'),
     exact: true

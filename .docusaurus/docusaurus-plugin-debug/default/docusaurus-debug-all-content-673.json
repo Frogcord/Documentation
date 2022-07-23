@@ -852,16 +852,6 @@
       },
       {
         "type": "mdx",
-        "permalink": "/markdown-page",
-        "source": "@site/src/pages/markdown-page.md",
-        "title": "Markdown page example",
-        "description": "You don't need React to write simple standalone pages.",
-        "frontMatter": {
-          "title": "Markdown page example"
-        }
-      },
-      {
-        "type": "mdx",
         "permalink": "/privacy",
         "source": "@site/src/pages/privacy.md",
         "title": "隱私權保護政策",
