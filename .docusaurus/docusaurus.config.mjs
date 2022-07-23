@@ -89,24 +89,49 @@ export default {
       "style": "dark",
       "links": [
         {
-          "title": "文檔",
+          "title": "文檔推薦",
           "items": [
             {
-              "label": "入門",
+              "label": "入門介紹",
               "to": "/docs"
+            },
+            {
+              "label": "如何使用機器人",
+              "to": "/docs/commands"
+            },
+            {
+              "label": "備份功能教學",
+              "to": "/docs/backup"
+            },
+            {
+              "label": "感謝名單",
+              "to": "/docs/grateful"
             }
           ]
         },
         {
-          "title": "更多區域",
+          "title": "部落格推薦文章",
           "items": [
             {
               "label": "部落格",
               "to": "/blog"
-            },
+            }
+          ]
+        },
+        {
+          "title": "相關連結",
+          "items": [
             {
               "label": "GitHub",
               "href": "https://github.com/Backup-Mode/Documentation"
+            },
+            {
+              "href": "https://backupmode.xyz/privacy",
+              "label": "隱私權政策"
+            },
+            {
+              "href": "https://backupmode.xyz/tos",
+              "label": "服務條款"
             }
           ]
         }
