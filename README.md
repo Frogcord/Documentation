@@ -1,41 +1,41 @@
-# Website
+# Backup Mode 文檔網站
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+該網站是使用 [Docusaurus 2](https://docusaurus.io/) 所構建出來的。
 
-### Installation
+### 安裝
 
 ```
 $ yarn
 ```
 
-### Local Development
+### 運行開發環境
 
 ```
 $ yarn start
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+此指令啟動本地開發服務器並打開瀏覽器窗口。 大多數更改都會實時反映，而無需重新啟動服務器。
 
-### Build
+### 構建
 
 ```
 $ yarn build
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+此指令將靜態內容生成到“build”目錄中，並且可以使用任何靜態內容託管服務提供服務。
 
-### Deployment
+### 部署
 
-Using SSH:
+使用 SSH:
 
 ```
 $ USE_SSH=true yarn deploy
 ```
 
-Not using SSH:
+不是使用 SSH:
 
 ```
 $ GIT_USER=<Your GitHub username> yarn deploy
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+如果您使用 GitHub 頁面進行託管，此命令是構建網站並推送到 `gh-pages` 分支的便捷方式。
