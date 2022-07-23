@@ -218,6 +218,13 @@
     },
     "content": "content---privacy-8-e-3-935"
   },
+  "/tos-080": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---markdown-page-01-c-b1e"
+    },
+    "content": "content---tose-53-ce9"
+  },
   "/docs-526": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {

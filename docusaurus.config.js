@@ -143,8 +143,8 @@ const config = {
                 to: 'privacy', 
               },
               {
-                href: 'https://backupmode.xyz/tos', 
                 label: '服務條款', 
+                to: 'tos', 
               },
             ],
           },

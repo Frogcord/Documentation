@@ -113,6 +113,11 @@ export default [
     exact: true
   },
   {
+    path: '/tos',
+    component: ComponentCreator('/tos', '080'),
+    exact: true
+  },
+  {
     path: '/docs',
     component: ComponentCreator('/docs', '526'),
     routes: [

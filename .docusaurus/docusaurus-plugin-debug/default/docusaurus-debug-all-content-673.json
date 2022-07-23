@@ -871,6 +871,18 @@
           "description": "此頁面說明了我們的隱私權保護政策。",
           "hide_table_of_contents": false
         }
+      },
+      {
+        "type": "mdx",
+        "permalink": "/tos",
+        "source": "@site/src/pages/tos.md",
+        "title": "服務條款",
+        "description": "此頁面說明了我們的服務條款。",
+        "frontMatter": {
+          "title": "服務條款",
+          "description": "此頁面說明了我們的服務條款。",
+          "hide_table_of_contents": false
+        }
       }
     ]
   },
