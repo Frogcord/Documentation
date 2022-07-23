@@ -455,17 +455,25 @@
             "authors": [
               {
                 "name": "Kevin",
-                "title": "創辦人",
+                "title": "創辦者",
                 "url": "https://github.com/Kevin28576",
                 "imageURL": "https://cdn.discordapp.com/avatars/747071881169076264/a_da94757b4885cb43abbc2428d0830102.gif?size=1024",
                 "key": "Kevin"
+              },
+              {
+                "name": "將軍 Soldierplayz",
+                "title": "開發者",
+                "url": "https://github.com/Soldierplayz6867",
+                "imageURL": "https://cdn.discordapp.com/avatars/561210753517092884/6e648c18cd14dabbb957f2e2e81ed47e.png?size=1024",
+                "key": "Soldierplayz"
               }
             ],
             "frontMatter": {
               "slug": "demo",
               "title": "演示文章!",
               "authors": [
-                "Kevin"
+                "Kevin",
+                "Soldierplayz"
               ],
               "tags": [
                 "演示文章"
@@ -507,7 +515,7 @@
             "authors": [
               {
                 "name": "Kevin",
-                "title": "創辦人",
+                "title": "創辦者",
                 "url": "https://github.com/Kevin28576",
                 "imageURL": "https://cdn.discordapp.com/avatars/747071881169076264/a_da94757b4885cb43abbc2428d0830102.gif?size=1024",
                 "key": "Kevin"
@@ -557,7 +565,7 @@
             "authors": [
               {
                 "name": "Kevin",
-                "title": "創辦人",
+                "title": "創辦者",
                 "url": "https://github.com/Kevin28576",
                 "imageURL": "https://cdn.discordapp.com/avatars/747071881169076264/a_da94757b4885cb43abbc2428d0830102.gif?size=1024",
                 "key": "Kevin"
@@ -609,7 +617,7 @@
             "authors": [
               {
                 "name": "Kevin",
-                "title": "創辦人",
+                "title": "創辦者",
                 "url": "https://github.com/Kevin28576",
                 "imageURL": "https://cdn.discordapp.com/avatars/747071881169076264/a_da94757b4885cb43abbc2428d0830102.gif?size=1024",
                 "key": "Kevin"
@@ -662,7 +670,7 @@
             "authors": [
               {
                 "name": "Kevin",
-                "title": "創辦人",
+                "title": "創辦者",
                 "url": "https://github.com/Kevin28576",
                 "imageURL": "https://cdn.discordapp.com/avatars/747071881169076264/a_da94757b4885cb43abbc2428d0830102.gif?size=1024",
                 "key": "Kevin"
