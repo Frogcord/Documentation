@@ -11,9 +11,10 @@ slug: /grateful
 * Hyper Group 旗下團隊提供 [[團隊網站](https://www.hypernology.com/)]
 * Mino Host 團隊提供
 
-## 網站及機器人系統維護
+## 圖片素材製作
 * Krick#9685
-* 將軍 Soldierplayz#8410
+* Ee#3322
+* 島風#6353
 
 ## 初期技術支持
 * MR.HACO#8888
@@ -25,13 +26,6 @@ slug: /grateful
 * 秒殺達人#1543
 * 將軍 Soldierplayz#8410
 * 雪球-snowball_213#8630
-
-## 圖片素材製作
-* Krick#9685
-* 島風#6353
-
-## 第一代Logo設計師
-* Ee#3322
 
 ## 宣傳大使
 * chiao_Yue#5853
