@@ -1,7 +1,7 @@
 ---
 slug: demo
 title: 演示文章!
-authors: [Kevin]
+authors: [Kevin, Soldierplayz]
 tags: [演示文章]
 ---
 
