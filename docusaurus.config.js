@@ -72,7 +72,7 @@ const config = {
       navbar: {
         title: 'Backup Mode',
         logo: {
-          alt: 'Backup Mode Logo',
+          alt: 'Logo',
           src: 'img/logo.svg',
         },
         items: [
