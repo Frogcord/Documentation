@@ -108,6 +108,11 @@ export default [
     exact: true
   },
   {
+    path: '/reporting-guidelines',
+    component: ComponentCreator('/reporting-guidelines', '57a'),
+    exact: true
+  },
+  {
     path: '/tos',
     component: ComponentCreator('/tos', '080'),
     exact: true

@@ -1295,6 +1295,12 @@
       },
       {
         "type": "mdx",
+        "permalink": "/reporting-guidelines",
+        "source": "@site/src/pages/reporting-guidelines.md",
+        "frontMatter": {}
+      },
+      {
+        "type": "mdx",
         "permalink": "/tos",
         "source": "@site/src/pages/tos.md",
         "title": "服務條款",
