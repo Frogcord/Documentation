@@ -28,7 +28,7 @@ export default {
       {
         "docs": {
           "sidebarPath": "D:\\Backup-Mode\\Documentation\\sidebars.js",
-          "editUrl": "https://github.com/Backup-Mode/Documentation",
+          "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main",
           "lastVersion": "current",
           "versions": {
             "current": {
@@ -39,7 +39,7 @@ export default {
         },
         "blog": {
           "showReadingTime": true,
-          "editUrl": "https://github.com/Backup-Mode/Documentation"
+          "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main"
         },
         "theme": {
           "customCss": "D:\\Backup-Mode\\Documentation\\src\\css\\custom.css"

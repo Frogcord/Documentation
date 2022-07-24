@@ -1,6 +1,6 @@
 {
   "permalink": "/blog/mdx-blog-post",
-  "editUrl": "https://github.com/Backup-Mode/Documentation/blog/2021-08-01-mdx-blog-post.mdx",
+  "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/blog/2021-08-01-mdx-blog-post.mdx",
   "source": "@site/blog/2021-08-01-mdx-blog-post.mdx",
   "title": "MDX Blog Post",
   "description": "Blog posts support Docusaurus Markdown features, such as MDX.",

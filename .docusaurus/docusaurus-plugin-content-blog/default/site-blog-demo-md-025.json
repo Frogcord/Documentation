@@ -1,6 +1,6 @@
 {
   "permalink": "/blog/demo",
-  "editUrl": "https://github.com/Backup-Mode/Documentation/blog/demo.md",
+  "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/blog/demo.md",
   "source": "@site/blog/demo.md",
   "title": "演示文章!",
   "description": "恭喜，你已經發了你的第一篇文章！",

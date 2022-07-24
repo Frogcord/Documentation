@@ -37,7 +37,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/Backup-Mode/Documentation',
+            'https://github.com/Backup-Mode/Documentation/tree/main',
           lastVersion: 'current',
           versions: {
             current: {
@@ -51,7 +51,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/Backup-Mode/Documentation',
+            'https://github.com/Backup-Mode/Documentation/tree/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
