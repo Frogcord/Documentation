@@ -4,9 +4,9 @@
       "loadedVersions": [
         {
           "versionName": "current",
-          "label": "Next",
+          "label": "尚未發布版本 🚧",
           "banner": null,
-          "badge": false,
+          "badge": true,
           "className": "docs-version-current",
           "path": "/docs",
           "tagsPath": "/docs/tags",
@@ -422,6 +422,430 @@
                   "description": "5 minutes to learn the most important Docusaurus concepts.",
                   "slug": "/category/tutorial---basics",
                   "permalink": "/docs/category/tutorial---basics"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "versionName": "0.0.0-beta.1",
+          "label": "0.0.0-beta.1",
+          "banner": "unmaintained",
+          "badge": true,
+          "className": "docs-version-0.0.0-beta.1",
+          "path": "/docs/0.0.0-beta.1",
+          "tagsPath": "/docs/0.0.0-beta.1/tags",
+          "editUrl": "https://github.com/Backup-Mode/Documentation/versioned_docs/version-0.0.0-beta.1",
+          "editUrlLocalized": "https://github.com/Backup-Mode/Documentation/i18n/zh-TW/docusaurus-plugin-content-docs/version-0.0.0-beta.1",
+          "isLast": false,
+          "sidebarFilePath": "D:\\Backup-Mode\\Documentation\\versioned_sidebars\\version-0.0.0-beta.1-sidebars.json",
+          "contentPath": "D:\\Backup-Mode\\Documentation\\versioned_docs\\version-0.0.0-beta.1",
+          "contentPathLocalized": "D:\\Backup-Mode\\Documentation\\i18n\\zh-TW\\docusaurus-plugin-content-docs\\version-0.0.0-beta.1",
+          "docs": [
+            {
+              "unversionedId": "backup",
+              "id": "version-0.0.0-beta.1/backup",
+              "title": "備份功能",
+              "description": "",
+              "source": "@site/versioned_docs/version-0.0.0-beta.1/backup.md",
+              "sourceDirName": ".",
+              "slug": "/backup",
+              "permalink": "/docs/0.0.0-beta.1/backup",
+              "draft": false,
+              "editUrl": "https://github.com/Backup-Mode/Documentation/versioned_docs/version-0.0.0-beta.1/backup.md",
+              "tags": [],
+              "version": "0.0.0-beta.1",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3,
+                "slug": "/backup"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "如何使用機器人",
+                "permalink": "/docs/0.0.0-beta.1/commands"
+              },
+              "next": {
+                "title": "感謝名單",
+                "permalink": "/docs/0.0.0-beta.1/grateful"
+              }
+            },
+            {
+              "unversionedId": "commands/commands",
+              "id": "version-0.0.0-beta.1/commands/commands",
+              "title": "如何使用機器人",
+              "description": "使用Backup Mode的方法非常簡單，因為現在所有指令皆已改成 斜線指令 ，所以只需要在訊息輸入框中打上 / 就會有機器人的所有指令了喔!",
+              "source": "@site/versioned_docs/version-0.0.0-beta.1/commands/commands.md",
+              "sourceDirName": "commands",
+              "slug": "/commands",
+              "permalink": "/docs/0.0.0-beta.1/commands",
+              "draft": false,
+              "editUrl": "https://github.com/Backup-Mode/Documentation/versioned_docs/version-0.0.0-beta.1/commands/commands.md",
+              "tags": [],
+              "version": "0.0.0-beta.1",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "slug": "/commands"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "指令"
+              },
+              "next": {
+                "title": "備份功能",
+                "permalink": "/docs/0.0.0-beta.1/backup"
+              }
+            },
+            {
+              "unversionedId": "grateful",
+              "id": "version-0.0.0-beta.1/grateful",
+              "title": "感謝名單",
+              "description": "非常感謝以下的所有人、組織、團隊以及廠商的貢獻，否則就沒了現在的Backup Mode。",
+              "source": "@site/versioned_docs/version-0.0.0-beta.1/grateful.md",
+              "sourceDirName": ".",
+              "slug": "/grateful",
+              "permalink": "/docs/0.0.0-beta.1/grateful",
+              "draft": false,
+              "editUrl": "https://github.com/Backup-Mode/Documentation/versioned_docs/version-0.0.0-beta.1/grateful.md",
+              "tags": [],
+              "version": "0.0.0-beta.1",
+              "sidebarPosition": 10,
+              "frontMatter": {
+                "sidebar_position": 10,
+                "slug": "/grateful"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "備份功能",
+                "permalink": "/docs/0.0.0-beta.1/backup"
+              },
+              "next": {
+                "title": "Tutorial - Extras",
+                "permalink": "/docs/0.0.0-beta.1/category/tutorial---extras"
+              }
+            },
+            {
+              "unversionedId": "intro",
+              "id": "version-0.0.0-beta.1/intro",
+              "title": "入門介紹",
+              "description": "讓我們在不到 5 分鐘的時間內了解 Backup Mode 的運作。",
+              "source": "@site/versioned_docs/version-0.0.0-beta.1/intro.md",
+              "sourceDirName": ".",
+              "slug": "/",
+              "permalink": "/docs/0.0.0-beta.1/",
+              "draft": false,
+              "editUrl": "https://github.com/Backup-Mode/Documentation/versioned_docs/version-0.0.0-beta.1/intro.md",
+              "tags": [],
+              "version": "0.0.0-beta.1",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "slug": "/"
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "指令"
+              }
+            },
+            {
+              "unversionedId": "tutorial-basics/congratulations",
+              "id": "version-0.0.0-beta.1/tutorial-basics/congratulations",
+              "title": "Congratulations!",
+              "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+              "source": "@site/versioned_docs/version-0.0.0-beta.1/tutorial-basics/congratulations.md",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/congratulations",
+              "permalink": "/docs/0.0.0-beta.1/tutorial-basics/congratulations",
+              "draft": false,
+              "editUrl": "https://github.com/Backup-Mode/Documentation/versioned_docs/version-0.0.0-beta.1/tutorial-basics/congratulations.md",
+              "tags": [],
+              "version": "0.0.0-beta.1",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Deploy your site",
+                "permalink": "/docs/0.0.0-beta.1/tutorial-basics/deploy-your-site"
+              }
+            },
+            {
+              "unversionedId": "tutorial-basics/create-a-blog-post",
+              "id": "version-0.0.0-beta.1/tutorial-basics/create-a-blog-post",
+              "title": "Create a Blog Post",
+              "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
+              "source": "@site/versioned_docs/version-0.0.0-beta.1/tutorial-basics/create-a-blog-post.md",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/create-a-blog-post",
+              "permalink": "/docs/0.0.0-beta.1/tutorial-basics/create-a-blog-post",
+              "draft": false,
+              "editUrl": "https://github.com/Backup-Mode/Documentation/versioned_docs/version-0.0.0-beta.1/tutorial-basics/create-a-blog-post.md",
+              "tags": [],
+              "version": "0.0.0-beta.1",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Create a Document",
+                "permalink": "/docs/0.0.0-beta.1/tutorial-basics/create-a-document"
+              },
+              "next": {
+                "title": "Markdown Features",
+                "permalink": "/docs/0.0.0-beta.1/tutorial-basics/markdown-features"
+              }
+            },
+            {
+              "unversionedId": "tutorial-basics/create-a-document",
+              "id": "version-0.0.0-beta.1/tutorial-basics/create-a-document",
+              "title": "Create a Document",
+              "description": "Documents are groups of pages connected through:",
+              "source": "@site/versioned_docs/version-0.0.0-beta.1/tutorial-basics/create-a-document.md",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/create-a-document",
+              "permalink": "/docs/0.0.0-beta.1/tutorial-basics/create-a-document",
+              "draft": false,
+              "editUrl": "https://github.com/Backup-Mode/Documentation/versioned_docs/version-0.0.0-beta.1/tutorial-basics/create-a-document.md",
+              "tags": [],
+              "version": "0.0.0-beta.1",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Create a Page",
+                "permalink": "/docs/0.0.0-beta.1/tutorial-basics/create-a-page"
+              },
+              "next": {
+                "title": "Create a Blog Post",
+                "permalink": "/docs/0.0.0-beta.1/tutorial-basics/create-a-blog-post"
+              }
+            },
+            {
+              "unversionedId": "tutorial-basics/create-a-page",
+              "id": "version-0.0.0-beta.1/tutorial-basics/create-a-page",
+              "title": "Create a Page",
+              "description": "Add Markdown or React files to src/pages to create a standalone page:",
+              "source": "@site/versioned_docs/version-0.0.0-beta.1/tutorial-basics/create-a-page.md",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/create-a-page",
+              "permalink": "/docs/0.0.0-beta.1/tutorial-basics/create-a-page",
+              "draft": false,
+              "editUrl": "https://github.com/Backup-Mode/Documentation/versioned_docs/version-0.0.0-beta.1/tutorial-basics/create-a-page.md",
+              "tags": [],
+              "version": "0.0.0-beta.1",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Tutorial - Basics",
+                "permalink": "/docs/0.0.0-beta.1/category/tutorial---basics"
+              },
+              "next": {
+                "title": "Create a Document",
+                "permalink": "/docs/0.0.0-beta.1/tutorial-basics/create-a-document"
+              }
+            },
+            {
+              "unversionedId": "tutorial-basics/deploy-your-site",
+              "id": "version-0.0.0-beta.1/tutorial-basics/deploy-your-site",
+              "title": "Deploy your site",
+              "description": "Docusaurus is a static-site-generator (also called Jamstack).",
+              "source": "@site/versioned_docs/version-0.0.0-beta.1/tutorial-basics/deploy-your-site.md",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/deploy-your-site",
+              "permalink": "/docs/0.0.0-beta.1/tutorial-basics/deploy-your-site",
+              "draft": false,
+              "editUrl": "https://github.com/Backup-Mode/Documentation/versioned_docs/version-0.0.0-beta.1/tutorial-basics/deploy-your-site.md",
+              "tags": [],
+              "version": "0.0.0-beta.1",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Markdown Features",
+                "permalink": "/docs/0.0.0-beta.1/tutorial-basics/markdown-features"
+              },
+              "next": {
+                "title": "Congratulations!",
+                "permalink": "/docs/0.0.0-beta.1/tutorial-basics/congratulations"
+              }
+            },
+            {
+              "unversionedId": "tutorial-basics/markdown-features",
+              "id": "version-0.0.0-beta.1/tutorial-basics/markdown-features",
+              "title": "Markdown Features",
+              "description": "Docusaurus supports Markdown and a few additional features.",
+              "source": "@site/versioned_docs/version-0.0.0-beta.1/tutorial-basics/markdown-features.mdx",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/markdown-features",
+              "permalink": "/docs/0.0.0-beta.1/tutorial-basics/markdown-features",
+              "draft": false,
+              "editUrl": "https://github.com/Backup-Mode/Documentation/versioned_docs/version-0.0.0-beta.1/tutorial-basics/markdown-features.mdx",
+              "tags": [],
+              "version": "0.0.0-beta.1",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Create a Blog Post",
+                "permalink": "/docs/0.0.0-beta.1/tutorial-basics/create-a-blog-post"
+              },
+              "next": {
+                "title": "Deploy your site",
+                "permalink": "/docs/0.0.0-beta.1/tutorial-basics/deploy-your-site"
+              }
+            },
+            {
+              "unversionedId": "tutorial-extras/manage-docs-versions",
+              "id": "version-0.0.0-beta.1/tutorial-extras/manage-docs-versions",
+              "title": "Manage Docs Versions",
+              "description": "Docusaurus can manage multiple versions of your docs.",
+              "source": "@site/versioned_docs/version-0.0.0-beta.1/tutorial-extras/manage-docs-versions.md",
+              "sourceDirName": "tutorial-extras",
+              "slug": "/tutorial-extras/manage-docs-versions",
+              "permalink": "/docs/0.0.0-beta.1/tutorial-extras/manage-docs-versions",
+              "draft": false,
+              "editUrl": "https://github.com/Backup-Mode/Documentation/versioned_docs/version-0.0.0-beta.1/tutorial-extras/manage-docs-versions.md",
+              "tags": [],
+              "version": "0.0.0-beta.1",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Tutorial - Extras",
+                "permalink": "/docs/0.0.0-beta.1/category/tutorial---extras"
+              },
+              "next": {
+                "title": "Translate your site",
+                "permalink": "/docs/0.0.0-beta.1/tutorial-extras/translate-your-site"
+              }
+            },
+            {
+              "unversionedId": "tutorial-extras/translate-your-site",
+              "id": "version-0.0.0-beta.1/tutorial-extras/translate-your-site",
+              "title": "Translate your site",
+              "description": "Let's translate docs/intro.md to French.",
+              "source": "@site/versioned_docs/version-0.0.0-beta.1/tutorial-extras/translate-your-site.md",
+              "sourceDirName": "tutorial-extras",
+              "slug": "/tutorial-extras/translate-your-site",
+              "permalink": "/docs/0.0.0-beta.1/tutorial-extras/translate-your-site",
+              "draft": false,
+              "editUrl": "https://github.com/Backup-Mode/Documentation/versioned_docs/version-0.0.0-beta.1/tutorial-extras/translate-your-site.md",
+              "tags": [],
+              "version": "0.0.0-beta.1",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Manage Docs Versions",
+                "permalink": "/docs/0.0.0-beta.1/tutorial-extras/manage-docs-versions"
+              },
+              "next": {
+                "title": "Tutorial - Basics",
+                "permalink": "/docs/0.0.0-beta.1/category/tutorial---basics"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "version-0.0.0-beta.1/intro"
+              },
+              {
+                "type": "category",
+                "label": "指令",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "version-0.0.0-beta.1/commands/commands"
+                  }
+                ],
+                "link": {}
+              },
+              {
+                "type": "doc",
+                "id": "version-0.0.0-beta.1/backup"
+              },
+              {
+                "type": "doc",
+                "id": "version-0.0.0-beta.1/grateful"
+              },
+              {
+                "type": "category",
+                "label": "Tutorial - Extras",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "version-0.0.0-beta.1/tutorial-extras/manage-docs-versions"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-0.0.0-beta.1/tutorial-extras/translate-your-site"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "slug": "/category/tutorial---extras",
+                  "permalink": "/docs/0.0.0-beta.1/category/tutorial---extras"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Tutorial - Basics",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "version-0.0.0-beta.1/tutorial-basics/create-a-page"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-0.0.0-beta.1/tutorial-basics/create-a-document"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-0.0.0-beta.1/tutorial-basics/create-a-blog-post"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-0.0.0-beta.1/tutorial-basics/markdown-features"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-0.0.0-beta.1/tutorial-basics/deploy-your-site"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-0.0.0-beta.1/tutorial-basics/congratulations"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "5 minutes to learn the most important Docusaurus concepts.",
+                  "slug": "/category/tutorial---basics",
+                  "permalink": "/docs/0.0.0-beta.1/category/tutorial---basics"
                 }
               }
             ]

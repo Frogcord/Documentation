@@ -38,6 +38,13 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/Backup-Mode/Documentation',
+          lastVersion: 'current',
+          versions: {
+            current: {
+              label: '尚未發布版本 🚧',
+              path: '',
+            },
+          },
         },
         blog: {
           showReadingTime: true,
@@ -86,6 +93,10 @@ const config = {
             to: '/blog', 
             label: '部落格', 
             position: 'left'
+          },
+          {
+            type: 'docsVersionDropdown',
+            position: 'right',
           },
           {
             type: 'localeDropdown',

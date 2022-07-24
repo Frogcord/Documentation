@@ -5,7 +5,7 @@
       "versions": [
         {
           "name": "current",
-          "label": "Next",
+          "label": "尚未發布版本 🚧",
           "isLast": true,
           "path": "/docs",
           "mainDocId": "intro",
@@ -87,6 +87,94 @@
               "link": {
                 "path": "/docs/",
                 "label": "intro"
+              }
+            }
+          }
+        },
+        {
+          "name": "0.0.0-beta.1",
+          "label": "0.0.0-beta.1",
+          "isLast": false,
+          "path": "/docs/0.0.0-beta.1",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "backup",
+              "path": "/docs/0.0.0-beta.1/backup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "commands/commands",
+              "path": "/docs/0.0.0-beta.1/commands",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "grateful",
+              "path": "/docs/0.0.0-beta.1/grateful",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/docs/0.0.0-beta.1/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/congratulations",
+              "path": "/docs/0.0.0-beta.1/tutorial-basics/congratulations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/create-a-blog-post",
+              "path": "/docs/0.0.0-beta.1/tutorial-basics/create-a-blog-post",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/create-a-document",
+              "path": "/docs/0.0.0-beta.1/tutorial-basics/create-a-document",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/create-a-page",
+              "path": "/docs/0.0.0-beta.1/tutorial-basics/create-a-page",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/deploy-your-site",
+              "path": "/docs/0.0.0-beta.1/tutorial-basics/deploy-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/markdown-features",
+              "path": "/docs/0.0.0-beta.1/tutorial-basics/markdown-features",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-extras/manage-docs-versions",
+              "path": "/docs/0.0.0-beta.1/tutorial-extras/manage-docs-versions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-extras/translate-your-site",
+              "path": "/docs/0.0.0-beta.1/tutorial-extras/translate-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/tutorial---extras",
+              "path": "/docs/0.0.0-beta.1/category/tutorial---extras",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/tutorial---basics",
+              "path": "/docs/0.0.0-beta.1/category/tutorial---basics",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/0.0.0-beta.1/",
+                "label": "version-0.0.0-beta.1/intro"
               }
             }
           }

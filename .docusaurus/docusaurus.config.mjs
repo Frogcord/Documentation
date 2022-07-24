@@ -28,7 +28,14 @@ export default {
       {
         "docs": {
           "sidebarPath": "D:\\Backup-Mode\\Documentation\\sidebars.js",
-          "editUrl": "https://github.com/Backup-Mode/Documentation"
+          "editUrl": "https://github.com/Backup-Mode/Documentation",
+          "lastVersion": "current",
+          "versions": {
+            "current": {
+              "label": "尚未發布版本 🚧",
+              "path": ""
+            }
+          }
         },
         "blog": {
           "showReadingTime": true,
@@ -70,6 +77,12 @@ export default {
           "to": "/blog",
           "label": "部落格",
           "position": "left"
+        },
+        {
+          "type": "docsVersionDropdown",
+          "position": "right",
+          "dropdownItemsBefore": [],
+          "dropdownItemsAfter": []
         },
         {
           "type": "localeDropdown",

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "intro",
+  "id": "version-1.1.0/intro",
+  "title": "入門介紹",
+  "description": "讓我們在不到 5 分鐘的時間內了解 Backup Mode 的運作。",
+  "source": "@site/versioned_docs/version-1.1.0/intro.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/docs/",
+  "draft": false,
+  "editUrl": "https://github.com/Backup-Mode/Documentation/versioned_docs/version-1.1.0/intro.md",
+  "tags": [],
+  "version": "1.1.0",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "slug": "/"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "指令"
+  }
+}

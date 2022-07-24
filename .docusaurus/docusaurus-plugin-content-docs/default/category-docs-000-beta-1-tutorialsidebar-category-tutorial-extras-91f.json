@@ -1,0 +1,15 @@
+{
+  "title": "Tutorial - Extras",
+  "slug": "/category/tutorial---extras",
+  "permalink": "/docs/0.0.0-beta.1/category/tutorial---extras",
+  "navigation": {
+    "previous": {
+      "title": "感謝名單",
+      "permalink": "/docs/0.0.0-beta.1/grateful"
+    },
+    "next": {
+      "title": "Manage Docs Versions",
+      "permalink": "/docs/0.0.0-beta.1/tutorial-extras/manage-docs-versions"
+    }
+  }
+}
