@@ -22,7 +22,7 @@
               "unversionedId": "backup",
               "id": "backup",
               "title": "備份功能",
-              "description": "該文檔正在待編寫隊列中，如需為此文檔貢獻請點擊下方的編輯按鈕。",
+              "description": "功能介紹",
               "source": "@site/docs/backup.md",
               "sourceDirName": ".",
               "slug": "/backup",
@@ -40,6 +40,34 @@
               "previous": {
                 "title": "如何使用機器人",
                 "permalink": "/docs/commands"
+              },
+              "next": {
+                "title": "BUG",
+                "permalink": "/docs/bug"
+              }
+            },
+            {
+              "unversionedId": "bug",
+              "id": "bug",
+              "title": "BUG",
+              "description": "該文檔正在待編寫隊列中，如需為此文檔貢獻請點擊下方的編輯按鈕。",
+              "source": "@site/docs/bug.md",
+              "sourceDirName": ".",
+              "slug": "/bug",
+              "permalink": "/docs/bug",
+              "draft": false,
+              "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/docs/bug.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4,
+                "slug": "/bug"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "備份功能",
+                "permalink": "/docs/backup"
               },
               "next": {
                 "title": "感謝名單",
@@ -94,8 +122,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "備份功能",
-                "permalink": "/docs/backup"
+                "title": "BUG",
+                "permalink": "/docs/bug"
               },
               "next": {
                 "title": "Tutorial - Extras",
@@ -367,6 +395,10 @@
               {
                 "type": "doc",
                 "id": "backup"
+              },
+              {
+                "type": "doc",
+                "id": "bug"
               },
               {
                 "type": "doc",

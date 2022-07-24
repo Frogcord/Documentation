@@ -209,7 +209,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'c27'),
+    component: ComponentCreator('/docs', '943'),
     routes: [
       {
         path: '/docs/',
@@ -220,6 +220,12 @@ export default [
       {
         path: '/docs/backup',
         component: ComponentCreator('/docs/backup', '32a'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/bug',
+        component: ComponentCreator('/docs/bug', 'a82'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

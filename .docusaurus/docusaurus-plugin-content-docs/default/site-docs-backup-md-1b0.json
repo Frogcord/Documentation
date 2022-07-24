@@ -2,7 +2,7 @@
   "unversionedId": "backup",
   "id": "backup",
   "title": "備份功能",
-  "description": "該文檔正在待編寫隊列中，如需為此文檔貢獻請點擊下方的編輯按鈕。",
+  "description": "功能介紹",
   "source": "@site/docs/backup.md",
   "sourceDirName": ".",
   "slug": "/backup",
@@ -22,7 +22,7 @@
     "permalink": "/docs/commands"
   },
   "next": {
-    "title": "感謝名單",
-    "permalink": "/docs/grateful"
+    "title": "BUG",
+    "permalink": "/docs/bug"
   }
 }

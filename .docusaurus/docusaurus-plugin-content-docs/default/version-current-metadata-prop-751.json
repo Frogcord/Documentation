@@ -37,6 +37,12 @@
       },
       {
         "type": "link",
+        "label": "BUG",
+        "href": "/docs/bug",
+        "docId": "bug"
+      },
+      {
+        "type": "link",
         "label": "感謝名單",
         "href": "/docs/grateful",
         "docId": "grateful"
@@ -113,6 +119,12 @@
     "backup": {
       "id": "backup",
       "title": "備份功能",
+      "description": "功能介紹",
+      "sidebar": "tutorialSidebar"
+    },
+    "bug": {
+      "id": "bug",
+      "title": "BUG",
       "description": "該文檔正在待編寫隊列中，如需為此文檔貢獻請點擊下方的編輯按鈕。",
       "sidebar": "tutorialSidebar"
     },

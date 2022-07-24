@@ -22,9 +22,7 @@ Backup Mode的所有功能將會在此文檔中介紹及說明。
 您可以使用 [此連結](https://invite.backupmode.xyz/) 來邀請Backup Mode至您的群組中。
 
 :::caution 請注意
-
 邀請完成後您可以選擇不繼續往下看，直接至 [本頁面](./commands) 來查看所有指令。
-
 :::
 
 ## 為甚麼要選擇Backup Mode?
@@ -36,9 +34,7 @@ Backup Mode的所有功能將會在此文檔中介紹及說明。
 您可以至 [本頁面](./commands) 來查看Backup Mode的所有指令。
 
 :::info 貼心小提示
-
 Backup Mode的所有指令都是以斜線指令來進行互動及使用。
-
 :::
 
 ## 如果文檔寫的我根本看不懂我該怎麼辦?
