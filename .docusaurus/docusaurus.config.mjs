@@ -48,6 +48,7 @@ export default {
     ]
   ],
   "themeConfig": {
+    "ogImage": "https://cdn.discordapp.com/attachments/992235414578548776/1000654248956149861/image.png",
     "colorMode": {
       "defaultMode": "dark",
       "disableSwitch": false,
