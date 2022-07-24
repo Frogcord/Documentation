@@ -1,6 +1,10 @@
 {
   "label": "指令",
   "position": 2,
+  "collapsible": true,
+  "collapsed": false,
   "link": {
+    "type": "generated-index",
+    "title": "教學總覽"
   }
 }

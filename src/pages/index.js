@@ -26,12 +26,13 @@ function HomepageHeader() {
   );
 }
 
+<meta property="og:image" content="https://cdn.discordapp.com/attachments/992235414578548776/1000654248956149861/image.png"/>
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="描述將進入 <head /> 中的元標記">
+      description="一個超優質的全中文 Discord 群組備份機器人。">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

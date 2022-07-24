@@ -204,7 +204,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '526'),
+    component: ComponentCreator('/docs', 'c27'),
     routes: [
       {
         path: '/docs/',
@@ -215,6 +215,12 @@ export default [
       {
         path: '/docs/backup',
         component: ComponentCreator('/docs/backup', '32a'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/category/指令',
+        component: ComponentCreator('/docs/category/指令', 'f44'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

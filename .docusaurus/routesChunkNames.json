@@ -281,7 +281,7 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-tutorial-extras-translate-your-sitea-4-a-d99"
   },
-  "/docs-526": {
+  "/docs-c27": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---docs-next-9-b-2-d32"
@@ -295,6 +295,10 @@
   "/docs/backup-32a": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-next-backup-1-b-0-398"
+  },
+  "/docs/category/指令-f44": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-指令cd-3-f36"
   },
   "/docs/category/tutorial---basics-d44": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",

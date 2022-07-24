@@ -18,6 +18,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "指令"
+    "title": "指令",
+    "permalink": "/docs/category/指令"
   }
 }

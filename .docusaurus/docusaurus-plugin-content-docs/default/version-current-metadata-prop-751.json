@@ -18,7 +18,7 @@
         "type": "category",
         "label": "指令",
         "collapsible": true,
-        "collapsed": true,
+        "collapsed": false,
         "items": [
           {
             "type": "link",
@@ -26,7 +26,8 @@
             "href": "/docs/commands",
             "docId": "commands/commands"
           }
-        ]
+        ],
+        "href": "/docs/category/指令"
       },
       {
         "type": "link",

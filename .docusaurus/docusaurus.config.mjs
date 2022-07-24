@@ -135,21 +135,21 @@ export default {
           "title": "相關連結",
           "items": [
             {
-              "label": "GitHub",
-              "href": "https://github.com/Backup-Mode/Documentation"
-            },
-            {
               "label": "隱私權保護政策",
               "to": "privacy"
             },
             {
               "label": "服務條款",
               "to": "tos"
+            },
+            {
+              "label": "GitHub",
+              "href": "https://github.com/Backup-Mode/Documentation"
             }
           ]
         }
       ],
-      "copyright": "The entirety of this site is protected by copyright ©️ 2021–2022 Backup Mode."
+      "copyright": "Copyright © 2022-2022 Backup Mode. All Rights Reserved."
     },
     "prism": {
       "theme": {

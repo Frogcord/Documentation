@@ -18,7 +18,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "指令"
+    "title": "指令",
+    "permalink": "/docs/category/指令"
   },
   "next": {
     "title": "備份功能",

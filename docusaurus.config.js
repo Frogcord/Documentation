@@ -146,10 +146,6 @@ const config = {
             title: '相關連結',
             items: [
               {
-                label: 'GitHub',
-                href: 'https://github.com/Backup-Mode/Documentation',
-              },
-              {
                 label: '隱私權保護政策', 
                 to: 'privacy', 
               },
@@ -157,10 +153,14 @@ const config = {
                 label: '服務條款', 
                 to: 'tos', 
               },
+              {
+                label: 'GitHub',
+                href: 'https://github.com/Backup-Mode/Documentation',
+              },
             ],
           },
         ],
-        copyright: `The entirety of this site is protected by copyright ©️ 2021–${new Date().getFullYear()} Backup Mode.`,
+        copyright: `Copyright © 2022-${new Date().getFullYear()} Backup Mode. All Rights Reserved.`,
       },
       prism: {
         theme: lightCodeTheme,

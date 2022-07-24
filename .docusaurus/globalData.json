@@ -71,6 +71,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "/category/指令",
+              "path": "/docs/category/指令",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/tutorial---extras",
               "path": "/docs/category/tutorial---extras",
               "sidebar": "tutorialSidebar"

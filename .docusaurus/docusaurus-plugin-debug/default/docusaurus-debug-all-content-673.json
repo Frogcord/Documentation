@@ -66,7 +66,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "指令"
+                "title": "指令",
+                "permalink": "/docs/category/指令"
               },
               "next": {
                 "title": "備份功能",
@@ -121,7 +122,8 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "指令"
+                "title": "指令",
+                "permalink": "/docs/category/指令"
               }
             },
             {
@@ -348,14 +350,19 @@
                 "type": "category",
                 "label": "指令",
                 "collapsible": true,
-                "collapsed": true,
+                "collapsed": false,
                 "items": [
                   {
                     "type": "doc",
                     "id": "commands/commands"
                   }
                 ],
-                "link": {}
+                "link": {
+                  "type": "generated-index",
+                  "title": "教學總覽",
+                  "slug": "/category/指令",
+                  "permalink": "/docs/category/指令"
+                }
               },
               {
                 "type": "doc",
