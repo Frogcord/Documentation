@@ -6,6 +6,7 @@ const FeatureList = [
   {
     title: '99.9% 的在線率 🚀',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    src: "https://cdn.iconscout.com/icon/free/png-256/server-uptime-2921895-2445594.png",
     description: (
       <>
         Backup Mode可以說是24/7都不掉線，除非更新或維護時會短暫下線無法使用!
@@ -15,6 +16,7 @@ const FeatureList = [
   {
     title: '簡單使用! 💻',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    src: "https://cdn.backupmode.xyz/feature-001.png",
     description: (
       <>
         全部都是斜線指令，且簡介一看就清楚!
@@ -24,6 +26,7 @@ const FeatureList = [
   {
     title: '全中文操作 🔓',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    src: "https://cdn.backupmode.xyz/feature-003.png",
     description: (
       <>
         超棒的全中文介面可以使用
@@ -32,11 +35,12 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({Svg, title, description, src}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <img src={src} />
+        <!-- <Svg className={styles.featureSvg} role="img" /> -->
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
