@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: '便於使用',
+    title: '99.9% 的在線率 🚀',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus 從頭開始設計，易於安裝和
-        用於讓您的網站快速啟動和運行。
+        Backup Mode可以說是24/7都不掉線，除非更新或維護時會短暫下線無法使用!
       </>
     ),
   },
   {
-    title: '專注於重要的事情',
+    title: '簡單使用! 💻',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus 讓您專注於您的文檔，而我們會做這些家務。去
-        將您的文檔移動到 <code>docs</code> 目錄中。
+        全部都是斜線指令，且簡介一看就清楚!
       </>
     ),
   },
   {
-    title: '由 React 提供支持',
+    title: '全中文操作 🔓',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        通過重用 React 擴展或自定義您的網站佈局。 Docusaurus 可以
-        在重用相同的頁眉和頁腳時進行擴展。
+        超棒的全中文介面可以使用
       </>
     ),
   },
