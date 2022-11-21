@@ -4,40 +4,40 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: '99.9% 的在線率 🚀',
-    Svg: "https://cdn.iconscout.com/icon/free/png-256/server-uptime-2921895-2445594.png",
+    title: '便於使用',
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Backup Mode可以說是24/7都不掉線，
-        除非更新或維護時會短暫下線無法使用!
+        Docusaurus 從頭開始設計，易於安裝和
+        用於讓您的網站快速啟動和運行。
       </>
     ),
   },
   {
-    title: '簡單使用! 💻',
-    Svg: "https://cdn.backupmode.xyz/feature-001.png",
+    title: '專注於重要的事情',
+    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        全部都是斜線指令，且簡介一看就清楚!
+        Docusaurus 讓您專注於您的文檔，而我們會做這些家務。去
+        將您的文檔移動到 <code>docs</code> 目錄中。
       </>
     ),
   },
   {
-    title: '全中文操作 🔓',
-    Svg: "https://cdn.backupmode.xyz/feature-003.png",
+    title: '由 React 提供支持',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        超棒的全中文介面可以使用
+        通過重用 React 擴展或自定義您的網站佈局。 Docusaurus 可以
+        在重用相同的頁眉和頁腳時進行擴展。
       </>
     ),
   },
-];
-
-function Feature({Svg, title, description}) {
+	@@ -39,7 +37,7 @@ function Feature({Svg, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <img src={Svg}>
+        <Svg className={styles.featureSvg} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
@@ -46,7 +46,6 @@ function Feature({Svg, title, description}) {
     </div>
   );
 }
-
 export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
