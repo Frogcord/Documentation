@@ -33,7 +33,9 @@ const FeatureList = [
       </>
     ),
   },
-	@@ -39,7 +37,7 @@ function Feature({Svg, title, description}) {
+];
+
+function Feature({Svg, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
@@ -46,6 +48,7 @@ const FeatureList = [
     </div>
   );
 }
+
 export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
