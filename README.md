@@ -2,6 +2,8 @@
 
 該網站是使用 [Docusaurus 2](https://docusaurus.io/) 所構建出來的。
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/de85b453-2d72-4f69-9661-00c343463264/deploy-status)](https://app.netlify.com/sites/darling-croissant-9ee8c0/deploys)
+
 ### 安裝
 
 ```
