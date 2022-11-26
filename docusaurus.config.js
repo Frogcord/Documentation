@@ -10,10 +10,9 @@ const config = {
   tagline: 'Backup Mode | 一個超優質的備份機器人',
   url: 'https://docs.backupmode.xyz',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  onBrokenLinks: true,
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'Backup-Mode', // Usually your GitHub org/user name.
