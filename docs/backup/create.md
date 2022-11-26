@@ -1,9 +1,9 @@
 ---
 sidebar_position: 1
-slug: /backupcreate
+slug: /backup_create
 ---
 
-# 備份功能
+# 創建
 
 ## 功能介紹
 
