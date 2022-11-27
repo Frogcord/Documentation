@@ -62,6 +62,16 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [
+        {name: "og:title", content="Backup Mode"},
+        {name: "og:image", content="https://cdn.backupmode.xyz/banner/og.png"},
+        {name: "og:url", content="https://backupmode.xyz/"},
+        {name: "og:image:type", content="image/png"},
+        {name: "og:image:width", content="1200"},
+        {name: "og:image:height", content="630"},
+        {name: "twitter:card", content="summary_large_image"},
+        {name: "twitter:image:src", content="https://cdn.backupmode.xyz/banner/og.png"}
+      ],
       colorMode: {
         defaultMode: 'dark',
         disableSwitch: false,
