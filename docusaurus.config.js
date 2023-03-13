@@ -91,7 +91,7 @@ const config = {
         },
         items: [
           {
-            to: '/',
+            to: 'https://backupmode.xyz',
             label: '首頁',
             position: 'left'
           },
