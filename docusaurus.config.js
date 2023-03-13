@@ -93,7 +93,7 @@ const config = {
           {
             to: '/',
             label: '首頁',
-            position: 'left
+            position: 'left'
           },
           {
             type: 'doc',
