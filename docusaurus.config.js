@@ -62,14 +62,14 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      metadata: [{name: 'og:title', content='Backup Mode'}],
-      metadata: [{name: 'og:image', content='https://cdn.backupmode.xyz/banner/og.png'}],
-      metadata: [{name: 'og:url', content='https://backupmode.xyz/'}],
-      metadata: [{name: 'og:image:type', content='image/png'}],
-      metadata: [{name: 'og:image:width', content='1200'}],
-      metadata: [{name: 'og:image:height', content='630'}],
-      metadata: [{name: 'twitter:card', content='summary_large_image'}],
-      metadata: [{name: 'twitter:image:src', content='https://cdn.backupmode.xyz/banner/og.png'}],
+      metadata: [{name: 'og:title', content: 'Backup Mode'}],
+      metadata: [{name: 'og:image', content: 'https://cdn.backupmode.xyz/banner/og.png'}],
+      metadata: [{name: 'og:url', content: 'https://backupmode.xyz/'}],
+      metadata: [{name: 'og:image:type', content: 'image/png'}],
+      metadata: [{name: 'og:image:width', content: '1200'}],
+      metadata: [{name: 'og:image:height', content: '630'}],
+      metadata: [{name: 'twitter:card', content: 'summary_large_image'}],
+      metadata: [{name: 'twitter:image:src', content: 'https://cdn.backupmode.xyz/banner/og.png'}],
       colorMode: {
         defaultMode: 'dark',
         disableSwitch: false,
@@ -90,6 +90,11 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
+          {
+            to: '/',
+            label: '首頁',
+            position: 'left
+          },
           {
             type: 'doc',
             docId: 'intro',
