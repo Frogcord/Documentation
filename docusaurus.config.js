@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Backup Mode',
   tagline: 'Backup Mode | 一個超優質的備份機器人',
-  url: 'https://docs.backupmode.xyz',
+  url: 'https://bk.mwdmc.dev',
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -64,7 +64,7 @@ const config = {
     ({
       metadata: [{name: 'og:title', content: 'Backup Mode'}],
       metadata: [{name: 'og:image', content: 'https://cdn.backupmode.xyz/banner/og.png'}],
-      metadata: [{name: 'og:url', content: 'https://backupmode.xyz/'}],
+      metadata: [{name: 'og:url', content: 'https://bk.mwdmc.dev/'}],
       metadata: [{name: 'og:image:type', content: 'image/png'}],
       metadata: [{name: 'og:image:width', content: '1200'}],
       metadata: [{name: 'og:image:height', content: '630'}],
@@ -91,7 +91,7 @@ const config = {
         },
         items: [
           {
-            to: 'https://backupmode.xyz',
+            to: '/',
             label: '首頁',
             position: 'left'
           },
