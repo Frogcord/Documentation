@@ -7,6 +7,7 @@
           "label": "尚未發布版本 🚧",
           "banner": null,
           "badge": true,
+          "noIndex": false,
           "className": "docs-version-current",
           "path": "/docs",
           "tagsPath": "/docs/tags",
@@ -14,32 +15,31 @@
           "editUrlLocalized": "https://github.com/Backup-Mode/Documentation/tree/main/i18n/zh-TW/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "D:\\Backup-Mode\\Documentation\\sidebars.js",
-          "contentPath": "D:\\Backup-Mode\\Documentation\\docs",
-          "contentPathLocalized": "D:\\Backup-Mode\\Documentation\\i18n\\zh-TW\\docusaurus-plugin-content-docs\\current",
+          "sidebarFilePath": "H:\\Github\\Documentation\\sidebars.js",
+          "contentPath": "H:\\Github\\Documentation\\docs",
+          "contentPathLocalized": "H:\\Github\\Documentation\\i18n\\zh-TW\\docusaurus-plugin-content-docs\\current",
           "docs": [
             {
-              "unversionedId": "backup",
-              "id": "backup",
-              "title": "備份功能",
+              "id": "backup/create",
+              "title": "創建",
               "description": "功能介紹",
-              "source": "@site/docs/backup.md",
-              "sourceDirName": ".",
-              "slug": "/backup",
-              "permalink": "/docs/backup",
+              "source": "@site/docs/backup/create.md",
+              "sourceDirName": "backup",
+              "slug": "/backup/create",
+              "permalink": "/docs/backup/create",
               "draft": false,
-              "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/docs/backup.md",
+              "unlisted": false,
+              "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/docs/backup/create.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 3,
+              "sidebarPosition": 1,
               "frontMatter": {
-                "sidebar_position": 3,
-                "slug": "/backup"
+                "sidebar_position": 1
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "如何使用機器人",
-                "permalink": "/docs/commands"
+                "title": "備份",
+                "permalink": "/docs/category/備份"
               },
               "next": {
                 "title": "BUG",
@@ -47,7 +47,6 @@
               }
             },
             {
-              "unversionedId": "bug",
               "id": "bug",
               "title": "BUG",
               "description": "該文檔正在待編寫隊列中，如需為此文檔貢獻請點擊下方的編輯按鈕。",
@@ -56,6 +55,7 @@
               "slug": "/bug",
               "permalink": "/docs/bug",
               "draft": false,
+              "unlisted": false,
               "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/docs/bug.md",
               "tags": [],
               "version": "current",
@@ -66,8 +66,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "備份功能",
-                "permalink": "/docs/backup"
+                "title": "創建",
+                "permalink": "/docs/backup/create"
               },
               "next": {
                 "title": "感謝名單",
@@ -75,7 +75,34 @@
               }
             },
             {
-              "unversionedId": "commands/commands",
+              "id": "commands/announce",
+              "title": "追蹤 Backup Mode 動態公告",
+              "description": "此功能可以讓您可以不用到我們的群組也能看到公告訊息！",
+              "source": "@site/docs/commands/announce.md",
+              "sourceDirName": "commands",
+              "slug": "/announce",
+              "permalink": "/docs/announce",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/docs/commands/announce.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2,
+                "slug": "/announce"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "如何使用機器人",
+                "permalink": "/docs/commands"
+              },
+              "next": {
+                "title": "贈送",
+                "permalink": "/docs/category/贈送"
+              }
+            },
+            {
               "id": "commands/commands",
               "title": "如何使用機器人",
               "description": "使用Backup Mode的方法非常簡單，因為現在所有指令皆已改成 斜線指令 ，所以只需要在訊息輸入框中打上 / 就會有機器人的所有指令了喔!",
@@ -84,6 +111,7 @@
               "slug": "/commands",
               "permalink": "/docs/commands",
               "draft": false,
+              "unlisted": false,
               "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/docs/commands/commands.md",
               "tags": [],
               "version": "current",
@@ -98,12 +126,61 @@
                 "permalink": "/docs/category/指令"
               },
               "next": {
-                "title": "備份功能",
-                "permalink": "/docs/backup"
+                "title": "追蹤 Backup Mode 動態公告",
+                "permalink": "/docs/announce"
               }
             },
             {
-              "unversionedId": "grateful",
+              "id": "giveaway/create",
+              "title": "創建",
+              "description": "功能介紹",
+              "source": "@site/docs/giveaway/01-create.md",
+              "sourceDirName": "giveaway",
+              "slug": "/giveaway/create",
+              "permalink": "/docs/giveaway/create",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/docs/giveaway/01-create.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "贈送",
+                "permalink": "/docs/category/贈送"
+              },
+              "next": {
+                "title": "刪除",
+                "permalink": "/docs/giveaway/delete"
+              }
+            },
+            {
+              "id": "giveaway/delete",
+              "title": "刪除",
+              "description": "功能介紹",
+              "source": "@site/docs/giveaway/01-delete.md",
+              "sourceDirName": "giveaway",
+              "slug": "/giveaway/delete",
+              "permalink": "/docs/giveaway/delete",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/docs/giveaway/01-delete.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "創建",
+                "permalink": "/docs/giveaway/create"
+              },
+              "next": {
+                "title": "備份",
+                "permalink": "/docs/category/備份"
+              }
+            },
+            {
               "id": "grateful",
               "title": "感謝名單",
               "description": "非常感謝以下的所有人、組織、團隊以及廠商的貢獻，否則就沒了現在的Backup Mode。",
@@ -112,6 +189,7 @@
               "slug": "/grateful",
               "permalink": "/docs/grateful",
               "draft": false,
+              "unlisted": false,
               "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/docs/grateful.md",
               "tags": [],
               "version": "current",
@@ -124,14 +202,9 @@
               "previous": {
                 "title": "BUG",
                 "permalink": "/docs/bug"
-              },
-              "next": {
-                "title": "Tutorial - Extras",
-                "permalink": "/docs/category/tutorial---extras"
               }
             },
             {
-              "unversionedId": "intro",
               "id": "intro",
               "title": "入門介紹",
               "description": "讓我們在不到 5 分鐘的時間內了解 Backup Mode 的運作。",
@@ -140,6 +213,7 @@
               "slug": "/",
               "permalink": "/docs/",
               "draft": false,
+              "unlisted": false,
               "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/docs/intro.md",
               "tags": [],
               "version": "current",
@@ -152,218 +226,6 @@
               "next": {
                 "title": "指令",
                 "permalink": "/docs/category/指令"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/congratulations",
-              "id": "tutorial-basics/congratulations",
-              "title": "Congratulations!",
-              "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
-              "source": "@site/docs/tutorial-basics/congratulations.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/congratulations",
-              "permalink": "/docs/tutorial-basics/congratulations",
-              "draft": false,
-              "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/docs/tutorial-basics/congratulations.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 6,
-              "frontMatter": {
-                "sidebar_position": 6
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Deploy your site",
-                "permalink": "/docs/tutorial-basics/deploy-your-site"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/create-a-blog-post",
-              "id": "tutorial-basics/create-a-blog-post",
-              "title": "Create a Blog Post",
-              "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
-              "source": "@site/docs/tutorial-basics/create-a-blog-post.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/create-a-blog-post",
-              "permalink": "/docs/tutorial-basics/create-a-blog-post",
-              "draft": false,
-              "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/docs/tutorial-basics/create-a-blog-post.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "sidebar_position": 3
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Create a Document",
-                "permalink": "/docs/tutorial-basics/create-a-document"
-              },
-              "next": {
-                "title": "Markdown Features",
-                "permalink": "/docs/tutorial-basics/markdown-features"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/create-a-document",
-              "id": "tutorial-basics/create-a-document",
-              "title": "Create a Document",
-              "description": "Documents are groups of pages connected through:",
-              "source": "@site/docs/tutorial-basics/create-a-document.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/create-a-document",
-              "permalink": "/docs/tutorial-basics/create-a-document",
-              "draft": false,
-              "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/docs/tutorial-basics/create-a-document.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Create a Page",
-                "permalink": "/docs/tutorial-basics/create-a-page"
-              },
-              "next": {
-                "title": "Create a Blog Post",
-                "permalink": "/docs/tutorial-basics/create-a-blog-post"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/create-a-page",
-              "id": "tutorial-basics/create-a-page",
-              "title": "Create a Page",
-              "description": "Add Markdown or React files to src/pages to create a standalone page:",
-              "source": "@site/docs/tutorial-basics/create-a-page.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/create-a-page",
-              "permalink": "/docs/tutorial-basics/create-a-page",
-              "draft": false,
-              "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/docs/tutorial-basics/create-a-page.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Tutorial - Basics",
-                "permalink": "/docs/category/tutorial---basics"
-              },
-              "next": {
-                "title": "Create a Document",
-                "permalink": "/docs/tutorial-basics/create-a-document"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/deploy-your-site",
-              "id": "tutorial-basics/deploy-your-site",
-              "title": "Deploy your site",
-              "description": "Docusaurus is a static-site-generator (also called Jamstack).",
-              "source": "@site/docs/tutorial-basics/deploy-your-site.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/deploy-your-site",
-              "permalink": "/docs/tutorial-basics/deploy-your-site",
-              "draft": false,
-              "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/docs/tutorial-basics/deploy-your-site.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 5,
-              "frontMatter": {
-                "sidebar_position": 5
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Markdown Features",
-                "permalink": "/docs/tutorial-basics/markdown-features"
-              },
-              "next": {
-                "title": "Congratulations!",
-                "permalink": "/docs/tutorial-basics/congratulations"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/markdown-features",
-              "id": "tutorial-basics/markdown-features",
-              "title": "Markdown Features",
-              "description": "Docusaurus supports Markdown and a few additional features.",
-              "source": "@site/docs/tutorial-basics/markdown-features.mdx",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/markdown-features",
-              "permalink": "/docs/tutorial-basics/markdown-features",
-              "draft": false,
-              "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/docs/tutorial-basics/markdown-features.mdx",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 4,
-              "frontMatter": {
-                "sidebar_position": 4
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Create a Blog Post",
-                "permalink": "/docs/tutorial-basics/create-a-blog-post"
-              },
-              "next": {
-                "title": "Deploy your site",
-                "permalink": "/docs/tutorial-basics/deploy-your-site"
-              }
-            },
-            {
-              "unversionedId": "tutorial-extras/manage-docs-versions",
-              "id": "tutorial-extras/manage-docs-versions",
-              "title": "Manage Docs Versions",
-              "description": "Docusaurus can manage multiple versions of your docs.",
-              "source": "@site/docs/tutorial-extras/manage-docs-versions.md",
-              "sourceDirName": "tutorial-extras",
-              "slug": "/tutorial-extras/manage-docs-versions",
-              "permalink": "/docs/tutorial-extras/manage-docs-versions",
-              "draft": false,
-              "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/docs/tutorial-extras/manage-docs-versions.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Tutorial - Extras",
-                "permalink": "/docs/category/tutorial---extras"
-              },
-              "next": {
-                "title": "Translate your site",
-                "permalink": "/docs/tutorial-extras/translate-your-site"
-              }
-            },
-            {
-              "unversionedId": "tutorial-extras/translate-your-site",
-              "id": "tutorial-extras/translate-your-site",
-              "title": "Translate your site",
-              "description": "Let's translate docs/intro.md to French.",
-              "source": "@site/docs/tutorial-extras/translate-your-site.md",
-              "sourceDirName": "tutorial-extras",
-              "slug": "/tutorial-extras/translate-your-site",
-              "permalink": "/docs/tutorial-extras/translate-your-site",
-              "draft": false,
-              "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/docs/tutorial-extras/translate-your-site.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Manage Docs Versions",
-                "permalink": "/docs/tutorial-extras/manage-docs-versions"
-              },
-              "next": {
-                "title": "Tutorial - Basics",
-                "permalink": "/docs/category/tutorial---basics"
               }
             }
           ],
@@ -383,6 +245,10 @@
                   {
                     "type": "doc",
                     "id": "commands/commands"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "commands/announce"
                   }
                 ],
                 "link": {
@@ -393,12 +259,417 @@
                 }
               },
               {
-                "type": "doc",
-                "id": "backup"
+                "type": "category",
+                "label": "贈送",
+                "collapsible": true,
+                "collapsed": true,
+                "customProps": {
+                  "description": "This description can be used in the swizzled DocCard"
+                },
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "giveaway/create"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "giveaway/delete"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "title": "教學總覽",
+                  "slug": "/category/贈送",
+                  "permalink": "/docs/category/贈送"
+                }
+              },
+              {
+                "type": "category",
+                "label": "備份",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "backup/create"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "title": "教學總覽",
+                  "slug": "/category/備份",
+                  "permalink": "/docs/category/備份"
+                }
               },
               {
                 "type": "doc",
                 "id": "bug"
+              },
+              {
+                "type": "doc",
+                "id": "grateful"
+              }
+            ]
+          }
+        },
+        {
+          "versionName": "0.0.0-beta.1",
+          "label": "0.0.0-beta.1",
+          "banner": "unmaintained",
+          "badge": true,
+          "noIndex": false,
+          "className": "docs-version-0.0.0-beta.1",
+          "path": "/docs/0.0.0-beta.1",
+          "tagsPath": "/docs/0.0.0-beta.1/tags",
+          "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/versioned_docs/version-0.0.0-beta.1",
+          "editUrlLocalized": "https://github.com/Backup-Mode/Documentation/tree/main/i18n/zh-TW/docusaurus-plugin-content-docs/version-0.0.0-beta.1",
+          "isLast": false,
+          "sidebarFilePath": "H:\\Github\\Documentation\\versioned_sidebars\\version-0.0.0-beta.1-sidebars.json",
+          "contentPath": "H:\\Github\\Documentation\\versioned_docs\\version-0.0.0-beta.1",
+          "contentPathLocalized": "H:\\Github\\Documentation\\i18n\\zh-TW\\docusaurus-plugin-content-docs\\version-0.0.0-beta.1",
+          "docs": [
+            {
+              "id": "backup",
+              "title": "備份功能",
+              "description": "",
+              "source": "@site/versioned_docs/version-0.0.0-beta.1/backup.md",
+              "sourceDirName": ".",
+              "slug": "/backup",
+              "permalink": "/docs/0.0.0-beta.1/backup",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/versioned_docs/version-0.0.0-beta.1/backup.md",
+              "tags": [],
+              "version": "0.0.0-beta.1",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3,
+                "slug": "/backup"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "如何使用機器人",
+                "permalink": "/docs/0.0.0-beta.1/commands"
+              },
+              "next": {
+                "title": "感謝名單",
+                "permalink": "/docs/0.0.0-beta.1/grateful"
+              }
+            },
+            {
+              "id": "commands/commands",
+              "title": "如何使用機器人",
+              "description": "使用Backup Mode的方法非常簡單，因為現在所有指令皆已改成 斜線指令 ，所以只需要在訊息輸入框中打上 / 就會有機器人的所有指令了喔!",
+              "source": "@site/versioned_docs/version-0.0.0-beta.1/commands/commands.md",
+              "sourceDirName": "commands",
+              "slug": "/commands",
+              "permalink": "/docs/0.0.0-beta.1/commands",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/versioned_docs/version-0.0.0-beta.1/commands/commands.md",
+              "tags": [],
+              "version": "0.0.0-beta.1",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "slug": "/commands"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "指令"
+              },
+              "next": {
+                "title": "備份功能",
+                "permalink": "/docs/0.0.0-beta.1/backup"
+              }
+            },
+            {
+              "id": "grateful",
+              "title": "感謝名單",
+              "description": "非常感謝以下的所有人、組織、團隊以及廠商的貢獻，否則就沒了現在的Backup Mode。",
+              "source": "@site/versioned_docs/version-0.0.0-beta.1/grateful.md",
+              "sourceDirName": ".",
+              "slug": "/grateful",
+              "permalink": "/docs/0.0.0-beta.1/grateful",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/versioned_docs/version-0.0.0-beta.1/grateful.md",
+              "tags": [],
+              "version": "0.0.0-beta.1",
+              "sidebarPosition": 10,
+              "frontMatter": {
+                "sidebar_position": 10,
+                "slug": "/grateful"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "備份功能",
+                "permalink": "/docs/0.0.0-beta.1/backup"
+              },
+              "next": {
+                "title": "Tutorial - Extras",
+                "permalink": "/docs/0.0.0-beta.1/category/tutorial---extras"
+              }
+            },
+            {
+              "id": "intro",
+              "title": "入門介紹",
+              "description": "讓我們在不到 5 分鐘的時間內了解 Backup Mode 的運作。",
+              "source": "@site/versioned_docs/version-0.0.0-beta.1/intro.md",
+              "sourceDirName": ".",
+              "slug": "/",
+              "permalink": "/docs/0.0.0-beta.1/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/versioned_docs/version-0.0.0-beta.1/intro.md",
+              "tags": [],
+              "version": "0.0.0-beta.1",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "slug": "/"
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "指令"
+              }
+            },
+            {
+              "id": "tutorial-basics/congratulations",
+              "title": "Congratulations!",
+              "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+              "source": "@site/versioned_docs/version-0.0.0-beta.1/tutorial-basics/congratulations.md",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/congratulations",
+              "permalink": "/docs/0.0.0-beta.1/tutorial-basics/congratulations",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/versioned_docs/version-0.0.0-beta.1/tutorial-basics/congratulations.md",
+              "tags": [],
+              "version": "0.0.0-beta.1",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Deploy your site",
+                "permalink": "/docs/0.0.0-beta.1/tutorial-basics/deploy-your-site"
+              }
+            },
+            {
+              "id": "tutorial-basics/create-a-blog-post",
+              "title": "Create a Blog Post",
+              "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
+              "source": "@site/versioned_docs/version-0.0.0-beta.1/tutorial-basics/create-a-blog-post.md",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/create-a-blog-post",
+              "permalink": "/docs/0.0.0-beta.1/tutorial-basics/create-a-blog-post",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/versioned_docs/version-0.0.0-beta.1/tutorial-basics/create-a-blog-post.md",
+              "tags": [],
+              "version": "0.0.0-beta.1",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Create a Document",
+                "permalink": "/docs/0.0.0-beta.1/tutorial-basics/create-a-document"
+              },
+              "next": {
+                "title": "Markdown Features",
+                "permalink": "/docs/0.0.0-beta.1/tutorial-basics/markdown-features"
+              }
+            },
+            {
+              "id": "tutorial-basics/create-a-document",
+              "title": "Create a Document",
+              "description": "Documents are groups of pages connected through:",
+              "source": "@site/versioned_docs/version-0.0.0-beta.1/tutorial-basics/create-a-document.md",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/create-a-document",
+              "permalink": "/docs/0.0.0-beta.1/tutorial-basics/create-a-document",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/versioned_docs/version-0.0.0-beta.1/tutorial-basics/create-a-document.md",
+              "tags": [],
+              "version": "0.0.0-beta.1",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Create a Page",
+                "permalink": "/docs/0.0.0-beta.1/tutorial-basics/create-a-page"
+              },
+              "next": {
+                "title": "Create a Blog Post",
+                "permalink": "/docs/0.0.0-beta.1/tutorial-basics/create-a-blog-post"
+              }
+            },
+            {
+              "id": "tutorial-basics/create-a-page",
+              "title": "Create a Page",
+              "description": "Add Markdown or React files to src/pages to create a standalone page:",
+              "source": "@site/versioned_docs/version-0.0.0-beta.1/tutorial-basics/create-a-page.md",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/create-a-page",
+              "permalink": "/docs/0.0.0-beta.1/tutorial-basics/create-a-page",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/versioned_docs/version-0.0.0-beta.1/tutorial-basics/create-a-page.md",
+              "tags": [],
+              "version": "0.0.0-beta.1",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Tutorial - Basics",
+                "permalink": "/docs/0.0.0-beta.1/category/tutorial---basics"
+              },
+              "next": {
+                "title": "Create a Document",
+                "permalink": "/docs/0.0.0-beta.1/tutorial-basics/create-a-document"
+              }
+            },
+            {
+              "id": "tutorial-basics/deploy-your-site",
+              "title": "Deploy your site",
+              "description": "Docusaurus is a static-site-generator (also called Jamstack).",
+              "source": "@site/versioned_docs/version-0.0.0-beta.1/tutorial-basics/deploy-your-site.md",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/deploy-your-site",
+              "permalink": "/docs/0.0.0-beta.1/tutorial-basics/deploy-your-site",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/versioned_docs/version-0.0.0-beta.1/tutorial-basics/deploy-your-site.md",
+              "tags": [],
+              "version": "0.0.0-beta.1",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Markdown Features",
+                "permalink": "/docs/0.0.0-beta.1/tutorial-basics/markdown-features"
+              },
+              "next": {
+                "title": "Congratulations!",
+                "permalink": "/docs/0.0.0-beta.1/tutorial-basics/congratulations"
+              }
+            },
+            {
+              "id": "tutorial-basics/markdown-features",
+              "title": "Markdown Features",
+              "description": "Docusaurus supports Markdown and a few additional features.",
+              "source": "@site/versioned_docs/version-0.0.0-beta.1/tutorial-basics/markdown-features.mdx",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/markdown-features",
+              "permalink": "/docs/0.0.0-beta.1/tutorial-basics/markdown-features",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/versioned_docs/version-0.0.0-beta.1/tutorial-basics/markdown-features.mdx",
+              "tags": [],
+              "version": "0.0.0-beta.1",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Create a Blog Post",
+                "permalink": "/docs/0.0.0-beta.1/tutorial-basics/create-a-blog-post"
+              },
+              "next": {
+                "title": "Deploy your site",
+                "permalink": "/docs/0.0.0-beta.1/tutorial-basics/deploy-your-site"
+              }
+            },
+            {
+              "id": "tutorial-extras/manage-docs-versions",
+              "title": "Manage Docs Versions",
+              "description": "Docusaurus can manage multiple versions of your docs.",
+              "source": "@site/versioned_docs/version-0.0.0-beta.1/tutorial-extras/manage-docs-versions.md",
+              "sourceDirName": "tutorial-extras",
+              "slug": "/tutorial-extras/manage-docs-versions",
+              "permalink": "/docs/0.0.0-beta.1/tutorial-extras/manage-docs-versions",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/versioned_docs/version-0.0.0-beta.1/tutorial-extras/manage-docs-versions.md",
+              "tags": [],
+              "version": "0.0.0-beta.1",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Tutorial - Extras",
+                "permalink": "/docs/0.0.0-beta.1/category/tutorial---extras"
+              },
+              "next": {
+                "title": "Translate your site",
+                "permalink": "/docs/0.0.0-beta.1/tutorial-extras/translate-your-site"
+              }
+            },
+            {
+              "id": "tutorial-extras/translate-your-site",
+              "title": "Translate your site",
+              "description": "Let's translate docs/intro.md to French.",
+              "source": "@site/versioned_docs/version-0.0.0-beta.1/tutorial-extras/translate-your-site.md",
+              "sourceDirName": "tutorial-extras",
+              "slug": "/tutorial-extras/translate-your-site",
+              "permalink": "/docs/0.0.0-beta.1/tutorial-extras/translate-your-site",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/versioned_docs/version-0.0.0-beta.1/tutorial-extras/translate-your-site.md",
+              "tags": [],
+              "version": "0.0.0-beta.1",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Manage Docs Versions",
+                "permalink": "/docs/0.0.0-beta.1/tutorial-extras/manage-docs-versions"
+              },
+              "next": {
+                "title": "Tutorial - Basics",
+                "permalink": "/docs/0.0.0-beta.1/category/tutorial---basics"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "intro"
+              },
+              {
+                "type": "category",
+                "label": "指令",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "commands/commands"
+                  }
+                ],
+                "link": {}
+              },
+              {
+                "type": "doc",
+                "id": "backup"
               },
               {
                 "type": "doc",
@@ -422,7 +693,7 @@
                 "link": {
                   "type": "generated-index",
                   "slug": "/category/tutorial---extras",
-                  "permalink": "/docs/category/tutorial---extras"
+                  "permalink": "/docs/0.0.0-beta.1/category/tutorial---extras"
                 }
               },
               {
@@ -460,430 +731,6 @@
                   "type": "generated-index",
                   "description": "5 minutes to learn the most important Docusaurus concepts.",
                   "slug": "/category/tutorial---basics",
-                  "permalink": "/docs/category/tutorial---basics"
-                }
-              }
-            ]
-          }
-        },
-        {
-          "versionName": "0.0.0-beta.1",
-          "label": "0.0.0-beta.1",
-          "banner": "unmaintained",
-          "badge": true,
-          "className": "docs-version-0.0.0-beta.1",
-          "path": "/docs/0.0.0-beta.1",
-          "tagsPath": "/docs/0.0.0-beta.1/tags",
-          "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/versioned_docs/version-0.0.0-beta.1",
-          "editUrlLocalized": "https://github.com/Backup-Mode/Documentation/tree/main/i18n/zh-TW/docusaurus-plugin-content-docs/version-0.0.0-beta.1",
-          "isLast": false,
-          "sidebarFilePath": "D:\\Backup-Mode\\Documentation\\versioned_sidebars\\version-0.0.0-beta.1-sidebars.json",
-          "contentPath": "D:\\Backup-Mode\\Documentation\\versioned_docs\\version-0.0.0-beta.1",
-          "contentPathLocalized": "D:\\Backup-Mode\\Documentation\\i18n\\zh-TW\\docusaurus-plugin-content-docs\\version-0.0.0-beta.1",
-          "docs": [
-            {
-              "unversionedId": "backup",
-              "id": "version-0.0.0-beta.1/backup",
-              "title": "備份功能",
-              "description": "",
-              "source": "@site/versioned_docs/version-0.0.0-beta.1/backup.md",
-              "sourceDirName": ".",
-              "slug": "/backup",
-              "permalink": "/docs/0.0.0-beta.1/backup",
-              "draft": false,
-              "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/versioned_docs/version-0.0.0-beta.1/backup.md",
-              "tags": [],
-              "version": "0.0.0-beta.1",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "sidebar_position": 3,
-                "slug": "/backup"
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "如何使用機器人",
-                "permalink": "/docs/0.0.0-beta.1/commands"
-              },
-              "next": {
-                "title": "感謝名單",
-                "permalink": "/docs/0.0.0-beta.1/grateful"
-              }
-            },
-            {
-              "unversionedId": "commands/commands",
-              "id": "version-0.0.0-beta.1/commands/commands",
-              "title": "如何使用機器人",
-              "description": "使用Backup Mode的方法非常簡單，因為現在所有指令皆已改成 斜線指令 ，所以只需要在訊息輸入框中打上 / 就會有機器人的所有指令了喔!",
-              "source": "@site/versioned_docs/version-0.0.0-beta.1/commands/commands.md",
-              "sourceDirName": "commands",
-              "slug": "/commands",
-              "permalink": "/docs/0.0.0-beta.1/commands",
-              "draft": false,
-              "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/versioned_docs/version-0.0.0-beta.1/commands/commands.md",
-              "tags": [],
-              "version": "0.0.0-beta.1",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1,
-                "slug": "/commands"
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "指令"
-              },
-              "next": {
-                "title": "備份功能",
-                "permalink": "/docs/0.0.0-beta.1/backup"
-              }
-            },
-            {
-              "unversionedId": "grateful",
-              "id": "version-0.0.0-beta.1/grateful",
-              "title": "感謝名單",
-              "description": "非常感謝以下的所有人、組織、團隊以及廠商的貢獻，否則就沒了現在的Backup Mode。",
-              "source": "@site/versioned_docs/version-0.0.0-beta.1/grateful.md",
-              "sourceDirName": ".",
-              "slug": "/grateful",
-              "permalink": "/docs/0.0.0-beta.1/grateful",
-              "draft": false,
-              "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/versioned_docs/version-0.0.0-beta.1/grateful.md",
-              "tags": [],
-              "version": "0.0.0-beta.1",
-              "sidebarPosition": 10,
-              "frontMatter": {
-                "sidebar_position": 10,
-                "slug": "/grateful"
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "備份功能",
-                "permalink": "/docs/0.0.0-beta.1/backup"
-              },
-              "next": {
-                "title": "Tutorial - Extras",
-                "permalink": "/docs/0.0.0-beta.1/category/tutorial---extras"
-              }
-            },
-            {
-              "unversionedId": "intro",
-              "id": "version-0.0.0-beta.1/intro",
-              "title": "入門介紹",
-              "description": "讓我們在不到 5 分鐘的時間內了解 Backup Mode 的運作。",
-              "source": "@site/versioned_docs/version-0.0.0-beta.1/intro.md",
-              "sourceDirName": ".",
-              "slug": "/",
-              "permalink": "/docs/0.0.0-beta.1/",
-              "draft": false,
-              "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/versioned_docs/version-0.0.0-beta.1/intro.md",
-              "tags": [],
-              "version": "0.0.0-beta.1",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1,
-                "slug": "/"
-              },
-              "sidebar": "tutorialSidebar",
-              "next": {
-                "title": "指令"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/congratulations",
-              "id": "version-0.0.0-beta.1/tutorial-basics/congratulations",
-              "title": "Congratulations!",
-              "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
-              "source": "@site/versioned_docs/version-0.0.0-beta.1/tutorial-basics/congratulations.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/congratulations",
-              "permalink": "/docs/0.0.0-beta.1/tutorial-basics/congratulations",
-              "draft": false,
-              "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/versioned_docs/version-0.0.0-beta.1/tutorial-basics/congratulations.md",
-              "tags": [],
-              "version": "0.0.0-beta.1",
-              "sidebarPosition": 6,
-              "frontMatter": {
-                "sidebar_position": 6
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Deploy your site",
-                "permalink": "/docs/0.0.0-beta.1/tutorial-basics/deploy-your-site"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/create-a-blog-post",
-              "id": "version-0.0.0-beta.1/tutorial-basics/create-a-blog-post",
-              "title": "Create a Blog Post",
-              "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
-              "source": "@site/versioned_docs/version-0.0.0-beta.1/tutorial-basics/create-a-blog-post.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/create-a-blog-post",
-              "permalink": "/docs/0.0.0-beta.1/tutorial-basics/create-a-blog-post",
-              "draft": false,
-              "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/versioned_docs/version-0.0.0-beta.1/tutorial-basics/create-a-blog-post.md",
-              "tags": [],
-              "version": "0.0.0-beta.1",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "sidebar_position": 3
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Create a Document",
-                "permalink": "/docs/0.0.0-beta.1/tutorial-basics/create-a-document"
-              },
-              "next": {
-                "title": "Markdown Features",
-                "permalink": "/docs/0.0.0-beta.1/tutorial-basics/markdown-features"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/create-a-document",
-              "id": "version-0.0.0-beta.1/tutorial-basics/create-a-document",
-              "title": "Create a Document",
-              "description": "Documents are groups of pages connected through:",
-              "source": "@site/versioned_docs/version-0.0.0-beta.1/tutorial-basics/create-a-document.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/create-a-document",
-              "permalink": "/docs/0.0.0-beta.1/tutorial-basics/create-a-document",
-              "draft": false,
-              "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/versioned_docs/version-0.0.0-beta.1/tutorial-basics/create-a-document.md",
-              "tags": [],
-              "version": "0.0.0-beta.1",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Create a Page",
-                "permalink": "/docs/0.0.0-beta.1/tutorial-basics/create-a-page"
-              },
-              "next": {
-                "title": "Create a Blog Post",
-                "permalink": "/docs/0.0.0-beta.1/tutorial-basics/create-a-blog-post"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/create-a-page",
-              "id": "version-0.0.0-beta.1/tutorial-basics/create-a-page",
-              "title": "Create a Page",
-              "description": "Add Markdown or React files to src/pages to create a standalone page:",
-              "source": "@site/versioned_docs/version-0.0.0-beta.1/tutorial-basics/create-a-page.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/create-a-page",
-              "permalink": "/docs/0.0.0-beta.1/tutorial-basics/create-a-page",
-              "draft": false,
-              "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/versioned_docs/version-0.0.0-beta.1/tutorial-basics/create-a-page.md",
-              "tags": [],
-              "version": "0.0.0-beta.1",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Tutorial - Basics",
-                "permalink": "/docs/0.0.0-beta.1/category/tutorial---basics"
-              },
-              "next": {
-                "title": "Create a Document",
-                "permalink": "/docs/0.0.0-beta.1/tutorial-basics/create-a-document"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/deploy-your-site",
-              "id": "version-0.0.0-beta.1/tutorial-basics/deploy-your-site",
-              "title": "Deploy your site",
-              "description": "Docusaurus is a static-site-generator (also called Jamstack).",
-              "source": "@site/versioned_docs/version-0.0.0-beta.1/tutorial-basics/deploy-your-site.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/deploy-your-site",
-              "permalink": "/docs/0.0.0-beta.1/tutorial-basics/deploy-your-site",
-              "draft": false,
-              "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/versioned_docs/version-0.0.0-beta.1/tutorial-basics/deploy-your-site.md",
-              "tags": [],
-              "version": "0.0.0-beta.1",
-              "sidebarPosition": 5,
-              "frontMatter": {
-                "sidebar_position": 5
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Markdown Features",
-                "permalink": "/docs/0.0.0-beta.1/tutorial-basics/markdown-features"
-              },
-              "next": {
-                "title": "Congratulations!",
-                "permalink": "/docs/0.0.0-beta.1/tutorial-basics/congratulations"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/markdown-features",
-              "id": "version-0.0.0-beta.1/tutorial-basics/markdown-features",
-              "title": "Markdown Features",
-              "description": "Docusaurus supports Markdown and a few additional features.",
-              "source": "@site/versioned_docs/version-0.0.0-beta.1/tutorial-basics/markdown-features.mdx",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/markdown-features",
-              "permalink": "/docs/0.0.0-beta.1/tutorial-basics/markdown-features",
-              "draft": false,
-              "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/versioned_docs/version-0.0.0-beta.1/tutorial-basics/markdown-features.mdx",
-              "tags": [],
-              "version": "0.0.0-beta.1",
-              "sidebarPosition": 4,
-              "frontMatter": {
-                "sidebar_position": 4
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Create a Blog Post",
-                "permalink": "/docs/0.0.0-beta.1/tutorial-basics/create-a-blog-post"
-              },
-              "next": {
-                "title": "Deploy your site",
-                "permalink": "/docs/0.0.0-beta.1/tutorial-basics/deploy-your-site"
-              }
-            },
-            {
-              "unversionedId": "tutorial-extras/manage-docs-versions",
-              "id": "version-0.0.0-beta.1/tutorial-extras/manage-docs-versions",
-              "title": "Manage Docs Versions",
-              "description": "Docusaurus can manage multiple versions of your docs.",
-              "source": "@site/versioned_docs/version-0.0.0-beta.1/tutorial-extras/manage-docs-versions.md",
-              "sourceDirName": "tutorial-extras",
-              "slug": "/tutorial-extras/manage-docs-versions",
-              "permalink": "/docs/0.0.0-beta.1/tutorial-extras/manage-docs-versions",
-              "draft": false,
-              "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/versioned_docs/version-0.0.0-beta.1/tutorial-extras/manage-docs-versions.md",
-              "tags": [],
-              "version": "0.0.0-beta.1",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Tutorial - Extras",
-                "permalink": "/docs/0.0.0-beta.1/category/tutorial---extras"
-              },
-              "next": {
-                "title": "Translate your site",
-                "permalink": "/docs/0.0.0-beta.1/tutorial-extras/translate-your-site"
-              }
-            },
-            {
-              "unversionedId": "tutorial-extras/translate-your-site",
-              "id": "version-0.0.0-beta.1/tutorial-extras/translate-your-site",
-              "title": "Translate your site",
-              "description": "Let's translate docs/intro.md to French.",
-              "source": "@site/versioned_docs/version-0.0.0-beta.1/tutorial-extras/translate-your-site.md",
-              "sourceDirName": "tutorial-extras",
-              "slug": "/tutorial-extras/translate-your-site",
-              "permalink": "/docs/0.0.0-beta.1/tutorial-extras/translate-your-site",
-              "draft": false,
-              "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/versioned_docs/version-0.0.0-beta.1/tutorial-extras/translate-your-site.md",
-              "tags": [],
-              "version": "0.0.0-beta.1",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Manage Docs Versions",
-                "permalink": "/docs/0.0.0-beta.1/tutorial-extras/manage-docs-versions"
-              },
-              "next": {
-                "title": "Tutorial - Basics",
-                "permalink": "/docs/0.0.0-beta.1/category/tutorial---basics"
-              }
-            }
-          ],
-          "drafts": [],
-          "sidebars": {
-            "tutorialSidebar": [
-              {
-                "type": "doc",
-                "id": "version-0.0.0-beta.1/intro"
-              },
-              {
-                "type": "category",
-                "label": "指令",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "version-0.0.0-beta.1/commands/commands"
-                  }
-                ],
-                "link": {}
-              },
-              {
-                "type": "doc",
-                "id": "version-0.0.0-beta.1/backup"
-              },
-              {
-                "type": "doc",
-                "id": "version-0.0.0-beta.1/grateful"
-              },
-              {
-                "type": "category",
-                "label": "Tutorial - Extras",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "version-0.0.0-beta.1/tutorial-extras/manage-docs-versions"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "version-0.0.0-beta.1/tutorial-extras/translate-your-site"
-                  }
-                ],
-                "link": {
-                  "type": "generated-index",
-                  "slug": "/category/tutorial---extras",
-                  "permalink": "/docs/0.0.0-beta.1/category/tutorial---extras"
-                }
-              },
-              {
-                "type": "category",
-                "label": "Tutorial - Basics",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "version-0.0.0-beta.1/tutorial-basics/create-a-page"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "version-0.0.0-beta.1/tutorial-basics/create-a-document"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "version-0.0.0-beta.1/tutorial-basics/create-a-blog-post"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "version-0.0.0-beta.1/tutorial-basics/markdown-features"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "version-0.0.0-beta.1/tutorial-basics/deploy-your-site"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "version-0.0.0-beta.1/tutorial-basics/congratulations"
-                  }
-                ],
-                "link": {
-                  "type": "generated-index",
-                  "description": "5 minutes to learn the most important Docusaurus concepts.",
-                  "slug": "/category/tutorial---basics",
                   "permalink": "/docs/0.0.0-beta.1/category/tutorial---basics"
                 }
               }
@@ -897,6 +744,185 @@
     "default": {
       "blogSidebarTitle": "Recent posts",
       "blogPosts": [
+        {
+          "id": "2022-11-21-maintenance",
+          "metadata": {
+            "permalink": "/blog/2022-11-21-maintenance",
+            "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/blog/2022-11-21-maintenance.mdx",
+            "source": "@site/blog/2022-11-21-maintenance.mdx",
+            "title": "主機維護!",
+            "description": "最近主機問題比較多，主機商今天維護伺服器",
+            "date": "2022-11-21T00:00:00.000Z",
+            "formattedDate": "2022年11月21日",
+            "tags": [
+              {
+                "label": "維護中",
+                "permalink": "/blog/tags/維護中"
+              }
+            ],
+            "readingTime": 0.41,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "將軍 Soldierplayz",
+                "title": "開發者",
+                "url": "https://github.com/Soldierplayz6867",
+                "imageURL": "https://cdn.discordapp.com/avatars/561210753517092884/3b2b4989cfd10f281ce32addf0bf3242.png?size=1024",
+                "key": "Soldierplayz"
+              }
+            ],
+            "frontMatter": {
+              "slug": "2022-11-21-maintenance",
+              "title": "主機維護!",
+              "authors": [
+                "Soldierplayz"
+              ],
+              "tags": [
+                "維護中"
+              ]
+            },
+            "unlisted": false,
+            "nextItem": {
+              "title": "備份方式更改",
+              "permalink": "/blog/2022-09-26/update-backup"
+            }
+          },
+          "content": "最近主機問題比較多，主機商今天維護伺服器 <br />\r\n將會離線，不會上線喔! <br />\r\n謝謝主機商的支持與技術，讓我們有今天這麼好的主機! <br />\r\n我們也會持續支持他們! <br />\r\n<br />\r\n✅ **快速連結** <br />\r\n▹https://www.hypernology.com <br />"
+        },
+        {
+          "id": "2022-09-26/update-backup",
+          "metadata": {
+            "permalink": "/blog/2022-09-26/update-backup",
+            "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/blog/2022-09-26-update-backup.md",
+            "source": "@site/blog/2022-09-26-update-backup.md",
+            "title": "備份方式更改",
+            "description": "我們已將群組頭像、橫幅、邀請背景以及Emoji圖片等等的保存方式從URL改成base64了",
+            "date": "2022-09-26T00:00:00.000Z",
+            "formattedDate": "2022年9月26日",
+            "tags": [
+              {
+                "label": "Discord",
+                "permalink": "/blog/tags/discord"
+              },
+              {
+                "label": "更新",
+                "permalink": "/blog/tags/更新"
+              },
+              {
+                "label": "新增",
+                "permalink": "/blog/tags/新增"
+              }
+            ],
+            "readingTime": 0.51,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Kevin",
+                "title": "開發者",
+                "url": "https://github.com/Kevin28576",
+                "imageURL": "https://cdn.discordapp.com/avatars/747071881169076264/9aa2a62da61b3e7364dda3c165646bda.png?size=1024",
+                "key": "Kevin"
+              },
+              {
+                "name": "將軍 Soldierplayz",
+                "title": "開發者",
+                "url": "https://github.com/Soldierplayz6867",
+                "imageURL": "https://cdn.discordapp.com/avatars/561210753517092884/3b2b4989cfd10f281ce32addf0bf3242.png?size=1024",
+                "key": "Soldierplayz"
+              }
+            ],
+            "frontMatter": {
+              "slug": "2022-09-26/update-backup",
+              "title": "備份方式更改",
+              "authors": [
+                "Kevin",
+                "Soldierplayz"
+              ],
+              "tags": [
+                "Discord",
+                "更新",
+                "新增"
+              ]
+            },
+            "unlisted": false,
+            "prevItem": {
+              "title": "主機維護!",
+              "permalink": "/blog/2022-11-21-maintenance"
+            },
+            "nextItem": {
+              "title": "通過驗證!",
+              "permalink": "/blog/verfied"
+            }
+          },
+          "content": "我們已將群組頭像、橫幅、邀請背景以及Emoji圖片等等的保存方式從URL改成base64了<br />\r\n，所以說當您備份的的群組被刪除後完全不用擔心圖片因此而丟失，在此我們也建議所有<br />\r\n群組的擁有者現在再備份個一次，以免圖片連結丟失導致無法恢復!"
+        },
+        {
+          "id": "verfied",
+          "metadata": {
+            "permalink": "/blog/verfied",
+            "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/blog/verified.md",
+            "source": "@site/blog/verified.md",
+            "title": "通過驗證!",
+            "description": "恭喜我們的機器人意圖正式通過啦!!!!",
+            "date": "2022-09-04T11:03:51.000Z",
+            "formattedDate": "2022年9月4日",
+            "tags": [
+              {
+                "label": "Discord",
+                "permalink": "/blog/tags/discord"
+              },
+              {
+                "label": "驗證",
+                "permalink": "/blog/tags/驗證"
+              },
+              {
+                "label": "通過!",
+                "permalink": "/blog/tags/通過"
+              }
+            ],
+            "readingTime": 0.295,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Kevin",
+                "title": "開發者",
+                "url": "https://github.com/Kevin28576",
+                "imageURL": "https://cdn.discordapp.com/avatars/747071881169076264/9aa2a62da61b3e7364dda3c165646bda.png?size=1024",
+                "key": "Kevin"
+              },
+              {
+                "name": "將軍 Soldierplayz",
+                "title": "開發者",
+                "url": "https://github.com/Soldierplayz6867",
+                "imageURL": "https://cdn.discordapp.com/avatars/561210753517092884/3b2b4989cfd10f281ce32addf0bf3242.png?size=1024",
+                "key": "Soldierplayz"
+              }
+            ],
+            "frontMatter": {
+              "slug": "verfied",
+              "title": "通過驗證!",
+              "authors": [
+                "Kevin",
+                "Soldierplayz"
+              ],
+              "tags": [
+                "Discord",
+                "驗證",
+                "通過!"
+              ]
+            },
+            "unlisted": false,
+            "prevItem": {
+              "title": "備份方式更改",
+              "permalink": "/blog/2022-09-26/update-backup"
+            },
+            "nextItem": {
+              "title": "演示文章!",
+              "permalink": "/blog/demo"
+            }
+          },
+          "content": "恭喜我們的機器人意圖正式通過啦!!!! <br />\r\n我們完成了Discord的驗證! 並且可以邀請超過 250 群了!!<br />\r\n傳送門: [點我](https://invite.backupmode.xyz)<br />\r\n請各位把目標設定在 1000 群!!!!<br />"
+        },
         {
           "id": "demo",
           "metadata": {
@@ -913,21 +939,21 @@
                 "permalink": "/blog/tags/演示文章"
               }
             ],
-            "readingTime": 0.07,
+            "readingTime": 0.1,
             "hasTruncateMarker": false,
             "authors": [
               {
                 "name": "Kevin",
-                "title": "創辦者",
+                "title": "開發者",
                 "url": "https://github.com/Kevin28576",
-                "imageURL": "https://cdn.discordapp.com/avatars/747071881169076264/a_da94757b4885cb43abbc2428d0830102.gif?size=1024",
+                "imageURL": "https://cdn.discordapp.com/avatars/747071881169076264/9aa2a62da61b3e7364dda3c165646bda.png?size=1024",
                 "key": "Kevin"
               },
               {
                 "name": "將軍 Soldierplayz",
                 "title": "開發者",
                 "url": "https://github.com/Soldierplayz6867",
-                "imageURL": "https://cdn.discordapp.com/avatars/561210753517092884/6e648c18cd14dabbb957f2e2e81ed47e.png?size=1024",
+                "imageURL": "https://cdn.discordapp.com/avatars/561210753517092884/3b2b4989cfd10f281ce32addf0bf3242.png?size=1024",
                 "key": "Soldierplayz"
               }
             ],
@@ -942,12 +968,17 @@
                 "演示文章"
               ]
             },
+            "unlisted": false,
+            "prevItem": {
+              "title": "通過驗證!",
+              "permalink": "/blog/verfied"
+            },
             "nextItem": {
               "title": "Welcome",
               "permalink": "/blog/welcome"
             }
           },
-          "content": "恭喜，你已經發了你的第一篇文章！"
+          "content": "恭喜，你已經發了你的第一篇文章！<br />\r\nWOW 超酷的~~"
         },
         {
           "id": "welcome",
@@ -978,9 +1009,9 @@
             "authors": [
               {
                 "name": "Kevin",
-                "title": "創辦者",
+                "title": "開發者",
                 "url": "https://github.com/Kevin28576",
-                "imageURL": "https://cdn.discordapp.com/avatars/747071881169076264/a_da94757b4885cb43abbc2428d0830102.gif?size=1024",
+                "imageURL": "https://cdn.discordapp.com/avatars/747071881169076264/9aa2a62da61b3e7364dda3c165646bda.png?size=1024",
                 "key": "Kevin"
               }
             ],
@@ -996,6 +1027,7 @@
                 "docusaurus"
               ]
             },
+            "unlisted": false,
             "prevItem": {
               "title": "演示文章!",
               "permalink": "/blog/demo"
@@ -1028,9 +1060,9 @@
             "authors": [
               {
                 "name": "Kevin",
-                "title": "創辦者",
+                "title": "開發者",
                 "url": "https://github.com/Kevin28576",
-                "imageURL": "https://cdn.discordapp.com/avatars/747071881169076264/a_da94757b4885cb43abbc2428d0830102.gif?size=1024",
+                "imageURL": "https://cdn.discordapp.com/avatars/747071881169076264/9aa2a62da61b3e7364dda3c165646bda.png?size=1024",
                 "key": "Kevin"
               }
             ],
@@ -1044,6 +1076,7 @@
                 "docusaurus"
               ]
             },
+            "unlisted": false,
             "prevItem": {
               "title": "Welcome",
               "permalink": "/blog/welcome"
@@ -1080,9 +1113,9 @@
             "authors": [
               {
                 "name": "Kevin",
-                "title": "創辦者",
+                "title": "開發者",
                 "url": "https://github.com/Kevin28576",
-                "imageURL": "https://cdn.discordapp.com/avatars/747071881169076264/a_da94757b4885cb43abbc2428d0830102.gif?size=1024",
+                "imageURL": "https://cdn.discordapp.com/avatars/747071881169076264/9aa2a62da61b3e7364dda3c165646bda.png?size=1024",
                 "key": "Kevin"
               }
             ],
@@ -1097,88 +1130,184 @@
                 "docusaurus"
               ]
             },
+            "unlisted": false,
             "prevItem": {
               "title": "MDX Blog Post",
               "permalink": "/blog/mdx-blog-post"
-            },
-            "nextItem": {
-              "title": "First Blog Post",
-              "permalink": "/blog/first-blog-post"
             }
           },
           "content": "This is the summary of a very long blog post,\r\n\r\nUse a `<!--` `truncate` `-->` comment to limit blog post size in the list view.\r\n\r\n<!--truncate-->\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
-        },
-        {
-          "id": "first-blog-post",
-          "metadata": {
-            "permalink": "/blog/first-blog-post",
-            "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/blog/2019-05-28-first-blog-post.md",
-            "source": "@site/blog/2019-05-28-first-blog-post.md",
-            "title": "First Blog Post",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
-            "date": "2019-05-28T00:00:00.000Z",
-            "formattedDate": "2019年5月28日",
-            "tags": [
-              {
-                "label": "hola",
-                "permalink": "/blog/tags/hola"
-              },
-              {
-                "label": "docusaurus",
-                "permalink": "/blog/tags/docusaurus"
-              }
-            ],
-            "readingTime": 0.12,
-            "hasTruncateMarker": false,
-            "authors": [
-              {
-                "name": "Kevin",
-                "title": "創辦者",
-                "url": "https://github.com/Kevin28576",
-                "imageURL": "https://cdn.discordapp.com/avatars/747071881169076264/a_da94757b4885cb43abbc2428d0830102.gif?size=1024",
-                "key": "Kevin"
-              }
-            ],
-            "frontMatter": {
-              "slug": "first-blog-post",
-              "title": "First Blog Post",
-              "authors": [
-                "Kevin"
-              ],
-              "tags": [
-                "hola",
-                "docusaurus"
-              ]
-            },
-            "prevItem": {
-              "title": "Long Blog Post",
-              "permalink": "/blog/long-blog-post"
-            }
-          },
-          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
         }
       ],
       "blogListPaginated": [
         {
           "items": [
+            "2022-11-21-maintenance",
+            "2022-09-26/update-backup",
+            "verfied",
             "demo",
             "welcome",
             "mdx-blog-post",
-            "long-blog-post",
-            "first-blog-post"
+            "long-blog-post"
           ],
           "metadata": {
             "permalink": "/blog",
             "page": 1,
             "postsPerPage": 10,
             "totalPages": 1,
-            "totalCount": 5,
+            "totalCount": 7,
             "blogDescription": "Blog",
             "blogTitle": "Blog"
           }
         }
       ],
       "blogTags": {
+        "/blog/tags/維護中": {
+          "label": "維護中",
+          "items": [
+            "2022-11-21-maintenance"
+          ],
+          "permalink": "/blog/tags/維護中",
+          "pages": [
+            {
+              "items": [
+                "2022-11-21-maintenance"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/維護中",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ],
+          "unlisted": false
+        },
+        "/blog/tags/discord": {
+          "label": "Discord",
+          "items": [
+            "2022-09-26/update-backup",
+            "verfied"
+          ],
+          "permalink": "/blog/tags/discord",
+          "pages": [
+            {
+              "items": [
+                "2022-09-26/update-backup",
+                "verfied"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/discord",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 2,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ],
+          "unlisted": false
+        },
+        "/blog/tags/更新": {
+          "label": "更新",
+          "items": [
+            "2022-09-26/update-backup"
+          ],
+          "permalink": "/blog/tags/更新",
+          "pages": [
+            {
+              "items": [
+                "2022-09-26/update-backup"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/更新",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ],
+          "unlisted": false
+        },
+        "/blog/tags/新增": {
+          "label": "新增",
+          "items": [
+            "2022-09-26/update-backup"
+          ],
+          "permalink": "/blog/tags/新增",
+          "pages": [
+            {
+              "items": [
+                "2022-09-26/update-backup"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/新增",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ],
+          "unlisted": false
+        },
+        "/blog/tags/驗證": {
+          "label": "驗證",
+          "items": [
+            "verfied"
+          ],
+          "permalink": "/blog/tags/驗證",
+          "pages": [
+            {
+              "items": [
+                "verfied"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/驗證",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ],
+          "unlisted": false
+        },
+        "/blog/tags/通過": {
+          "label": "通過!",
+          "items": [
+            "verfied"
+          ],
+          "permalink": "/blog/tags/通過",
+          "pages": [
+            {
+              "items": [
+                "verfied"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/通過",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ],
+          "unlisted": false
+        },
         "/blog/tags/演示文章": {
           "label": "演示文章",
           "items": [
@@ -1200,7 +1329,8 @@
                 "blogTitle": "Blog"
               }
             }
-          ]
+          ],
+          "unlisted": false
         },
         "/blog/tags/facebook": {
           "label": "facebook",
@@ -1223,7 +1353,8 @@
                 "blogTitle": "Blog"
               }
             }
-          ]
+          ],
+          "unlisted": false
         },
         "/blog/tags/hello": {
           "label": "hello",
@@ -1248,15 +1379,15 @@
                 "blogTitle": "Blog"
               }
             }
-          ]
+          ],
+          "unlisted": false
         },
         "/blog/tags/docusaurus": {
           "label": "docusaurus",
           "items": [
             "welcome",
             "mdx-blog-post",
-            "long-blog-post",
-            "first-blog-post"
+            "long-blog-post"
           ],
           "permalink": "/blog/tags/docusaurus",
           "pages": [
@@ -1264,43 +1395,20 @@
               "items": [
                 "welcome",
                 "mdx-blog-post",
-                "long-blog-post",
-                "first-blog-post"
+                "long-blog-post"
               ],
               "metadata": {
                 "permalink": "/blog/tags/docusaurus",
                 "page": 1,
                 "postsPerPage": 10,
                 "totalPages": 1,
-                "totalCount": 4,
+                "totalCount": 3,
                 "blogDescription": "Blog",
                 "blogTitle": "Blog"
               }
             }
-          ]
-        },
-        "/blog/tags/hola": {
-          "label": "hola",
-          "items": [
-            "first-blog-post"
           ],
-          "permalink": "/blog/tags/hola",
-          "pages": [
-            {
-              "items": [
-                "first-blog-post"
-              ],
-              "metadata": {
-                "permalink": "/blog/tags/hola",
-                "page": 1,
-                "postsPerPage": 10,
-                "totalPages": 1,
-                "totalCount": 1,
-                "blogDescription": "Blog",
-                "blogTitle": "Blog"
-              }
-            }
-          ]
+          "unlisted": false
         }
       },
       "blogTagsListPath": "/blog/tags"
@@ -1323,13 +1431,15 @@
           "title": "隱私權保護政策",
           "description": "此頁面說明了我們的隱私權保護政策。",
           "hide_table_of_contents": false
-        }
+        },
+        "unlisted": false
       },
       {
         "type": "mdx",
         "permalink": "/reporting-guidelines",
         "source": "@site/src/pages/reporting-guidelines.md",
-        "frontMatter": {}
+        "frontMatter": {},
+        "unlisted": false
       },
       {
         "type": "mdx",
@@ -1341,12 +1451,14 @@
           "title": "服務條款",
           "description": "此頁面說明了我們的服務條款。",
           "hide_table_of_contents": false
-        }
+        },
+        "unlisted": false
       }
     ]
   },
   "docusaurus-plugin-debug": {},
   "docusaurus-theme-classic": {},
+  "docusaurus-lunr-search": {},
   "docusaurus-bootstrap-plugin": {},
   "docusaurus-mdx-fallback-plugin": {}
 }

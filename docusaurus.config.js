@@ -1,13 +1,13 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const {themes} = require('prism-react-renderer');
+const lightTheme = themes.github;
+const darkTheme = themes.dracula;
 
-/** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Backup Mode',
-  tagline: 'Backup Mode | 一個超優質的備份機器人',
+  title: 'Backup Core',
+  tagline: 'Backup Core | 一個超優質的多功能機器人',
   url: 'https://bk.mwdmc.dev',
   baseUrl: '/',
   onBrokenLinks: 'warn',
@@ -17,7 +17,6 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'Backup-Mode', // Usually your GitHub org/user name.
   projectName: 'Documentation', // Usually your repo name.
-
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
@@ -25,7 +24,7 @@ const config = {
     defaultLocale: 'zh-TW',
     locales: ['zh-TW', 'en'],
   },
-
+  plugins: [require.resolve('docusaurus-lunr-search')],
   presets: [
     [
       'classic',
@@ -58,18 +57,23 @@ const config = {
       }),
     ],
   ],
-
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      markdown: {
+        mermaid: true,
+      },
+      prism: {
+        additionalLanguages: ['bash', 'diff', 'json'],
+      },
       metadata: [{name: 'og:title', content: 'Backup Mode'}],
-      metadata: [{name: 'og:image', content: 'https://cdn.backupmode.xyz/banner/og.png'}],
+      metadata: [{name: 'og:image', content: 'https://cdn.discordapp.com/attachments/992235414578548776/1000654248956149861/image.png'}],
       metadata: [{name: 'og:url', content: 'https://bk.mwdmc.dev/'}],
       metadata: [{name: 'og:image:type', content: 'image/png'}],
       metadata: [{name: 'og:image:width', content: '1200'}],
       metadata: [{name: 'og:image:height', content: '630'}],
       metadata: [{name: 'twitter:card', content: 'summary_large_image'}],
-      metadata: [{name: 'twitter:image:src', content: 'https://cdn.backupmode.xyz/banner/og.png'}],
+      metadata: [{name: 'twitter:image:src', content: 'https://cdn.discordapp.com/attachments/992235414578548776/1000654248956149861/image.png'}],
       colorMode: {
         defaultMode: 'dark',
         disableSwitch: false,
@@ -84,7 +88,7 @@ const config = {
         isCloseable: true,
       },
       navbar: {
-        title: 'Backup Mode',
+        title: 'Backup Core',
         logo: {
           alt: 'Logo',
           src: 'img/logo.svg',
@@ -102,7 +106,7 @@ const config = {
             label: '教學文檔',
           },
           {
-            to: '/blog', 
+            to: '/blog/', 
             label: '部落格', 
             position: 'left'
           },
@@ -172,12 +176,8 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © 2022-${new Date().getFullYear()} Backup Mode. All Rights Reserved.`,
-      },
-      prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
-      },
+        copyright: `Copyright © 2022-${new Date().getFullYear()} Backup Core. Orignal Backup Mode. All Rights Reserved.`,
+      }
     }),
 };
 

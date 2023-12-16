@@ -8,5 +8,6 @@
     "title": "服務條款",
     "description": "此頁面說明了我們的服務條款。",
     "hide_table_of_contents": false
-  }
+  },
+  "unlisted": false
 }

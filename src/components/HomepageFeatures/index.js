@@ -9,14 +9,14 @@ const FeatureList = [
     src: "https://cdn.iconscout.com/icon/free/png-256/server-uptime-2921895-2445594.png",
     description: (
       <>
-        Backup Mode可以說是24/7都不掉線，除非更新或維護時會短暫下線無法使用!
+        Backup Core可以說是24/7都不掉線，除非更新或維護時會短暫下線無法使用!
       </>
     ),
   },
   {
     title: '簡單使用! 💻',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    src: "https://cdn.backupmode.xyz/feature-001.png",
+    src: "https://i.imgur.com/DLFKZUM.png",
     description: (
       <>
         全部都是斜線指令，且簡介一看就清楚!
@@ -26,7 +26,7 @@ const FeatureList = [
   {
     title: '全中文操作 🔓',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    src: "https://cdn.backupmode.xyz/feature-003.png",
+    src: "https://i.imgur.com/vD10aNo.png",
     description: (
       <>
         超棒的全中文介面可以使用

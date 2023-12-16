@@ -1,6 +1,5 @@
 {
-  "unversionedId": "intro",
-  "id": "version-0.0.0-beta.1/intro",
+  "id": "intro",
   "title": "入門介紹",
   "description": "讓我們在不到 5 分鐘的時間內了解 Backup Mode 的運作。",
   "source": "@site/versioned_docs/version-0.0.0-beta.1/intro.md",
@@ -8,6 +7,7 @@
   "slug": "/",
   "permalink": "/docs/0.0.0-beta.1/",
   "draft": false,
+  "unlisted": false,
   "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/versioned_docs/version-0.0.0-beta.1/intro.md",
   "tags": [],
   "version": "0.0.0-beta.1",

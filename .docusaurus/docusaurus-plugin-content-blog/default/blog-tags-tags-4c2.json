@@ -1,5 +1,35 @@
 [
   {
+    "label": "維護中",
+    "permalink": "/blog/tags/維護中",
+    "count": 1
+  },
+  {
+    "label": "Discord",
+    "permalink": "/blog/tags/discord",
+    "count": 2
+  },
+  {
+    "label": "更新",
+    "permalink": "/blog/tags/更新",
+    "count": 1
+  },
+  {
+    "label": "新增",
+    "permalink": "/blog/tags/新增",
+    "count": 1
+  },
+  {
+    "label": "驗證",
+    "permalink": "/blog/tags/驗證",
+    "count": 1
+  },
+  {
+    "label": "通過!",
+    "permalink": "/blog/tags/通過",
+    "count": 1
+  },
+  {
     "label": "演示文章",
     "permalink": "/blog/tags/演示文章",
     "count": 1
@@ -17,11 +47,6 @@
   {
     "label": "docusaurus",
     "permalink": "/blog/tags/docusaurus",
-    "count": 4
-  },
-  {
-    "label": "hola",
-    "permalink": "/blog/tags/hola",
-    "count": 1
+    "count": 3
   }
 ]

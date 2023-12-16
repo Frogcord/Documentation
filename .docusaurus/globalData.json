@@ -1,4 +1,12 @@
 {
+  "docusaurus-lunr-search": {
+    "default": {
+      "fileNames": {
+        "searchDoc": "search-doc-1702707610017.json",
+        "lunrIndex": "lunr-index-1702707610017.json"
+      }
+    }
+  },
   "docusaurus-plugin-content-docs": {
     "default": {
       "path": "/docs",
@@ -11,8 +19,8 @@
           "mainDocId": "intro",
           "docs": [
             {
-              "id": "backup",
-              "path": "/docs/backup",
+              "id": "backup/create",
+              "path": "/docs/backup/create",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -21,8 +29,23 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "commands/announce",
+              "path": "/docs/announce",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "commands/commands",
               "path": "/docs/commands",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "giveaway/create",
+              "path": "/docs/giveaway/create",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "giveaway/delete",
+              "path": "/docs/giveaway/delete",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -36,58 +59,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/congratulations",
-              "path": "/docs/tutorial-basics/congratulations",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/create-a-blog-post",
-              "path": "/docs/tutorial-basics/create-a-blog-post",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/create-a-document",
-              "path": "/docs/tutorial-basics/create-a-document",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/create-a-page",
-              "path": "/docs/tutorial-basics/create-a-page",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/deploy-your-site",
-              "path": "/docs/tutorial-basics/deploy-your-site",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/markdown-features",
-              "path": "/docs/tutorial-basics/markdown-features",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-extras/manage-docs-versions",
-              "path": "/docs/tutorial-extras/manage-docs-versions",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-extras/translate-your-site",
-              "path": "/docs/tutorial-extras/translate-your-site",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "/category/指令",
               "path": "/docs/category/指令",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/tutorial---extras",
-              "path": "/docs/category/tutorial---extras",
+              "id": "/category/贈送",
+              "path": "/docs/category/贈送",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/tutorial---basics",
-              "path": "/docs/category/tutorial---basics",
+              "id": "/category/備份",
+              "path": "/docs/category/備份",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -184,7 +167,7 @@
             "tutorialSidebar": {
               "link": {
                 "path": "/docs/0.0.0-beta.1/",
-                "label": "version-0.0.0-beta.1/intro"
+                "label": "intro"
               }
             }
           }

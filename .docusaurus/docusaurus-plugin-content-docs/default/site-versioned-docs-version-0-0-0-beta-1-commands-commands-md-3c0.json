@@ -1,6 +1,5 @@
 {
-  "unversionedId": "commands/commands",
-  "id": "version-0.0.0-beta.1/commands/commands",
+  "id": "commands/commands",
   "title": "如何使用機器人",
   "description": "使用Backup Mode的方法非常簡單，因為現在所有指令皆已改成 斜線指令 ，所以只需要在訊息輸入框中打上 / 就會有機器人的所有指令了喔!",
   "source": "@site/versioned_docs/version-0.0.0-beta.1/commands/commands.md",
@@ -8,6 +7,7 @@
   "slug": "/commands",
   "permalink": "/docs/0.0.0-beta.1/commands",
   "draft": false,
+  "unlisted": false,
   "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/versioned_docs/version-0.0.0-beta.1/commands/commands.md",
   "tags": [],
   "version": "0.0.0-beta.1",

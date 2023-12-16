@@ -1,6 +1,5 @@
 {
-  "unversionedId": "tutorial-extras/manage-docs-versions",
-  "id": "version-0.0.0-beta.1/tutorial-extras/manage-docs-versions",
+  "id": "tutorial-extras/manage-docs-versions",
   "title": "Manage Docs Versions",
   "description": "Docusaurus can manage multiple versions of your docs.",
   "source": "@site/versioned_docs/version-0.0.0-beta.1/tutorial-extras/manage-docs-versions.md",
@@ -8,6 +7,7 @@
   "slug": "/tutorial-extras/manage-docs-versions",
   "permalink": "/docs/0.0.0-beta.1/tutorial-extras/manage-docs-versions",
   "draft": false,
+  "unlisted": false,
   "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/versioned_docs/version-0.0.0-beta.1/tutorial-extras/manage-docs-versions.md",
   "tags": [],
   "version": "0.0.0-beta.1",

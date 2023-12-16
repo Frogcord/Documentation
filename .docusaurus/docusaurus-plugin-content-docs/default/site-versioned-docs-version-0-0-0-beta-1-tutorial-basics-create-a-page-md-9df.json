@@ -1,6 +1,5 @@
 {
-  "unversionedId": "tutorial-basics/create-a-page",
-  "id": "version-0.0.0-beta.1/tutorial-basics/create-a-page",
+  "id": "tutorial-basics/create-a-page",
   "title": "Create a Page",
   "description": "Add Markdown or React files to src/pages to create a standalone page:",
   "source": "@site/versioned_docs/version-0.0.0-beta.1/tutorial-basics/create-a-page.md",
@@ -8,6 +7,7 @@
   "slug": "/tutorial-basics/create-a-page",
   "permalink": "/docs/0.0.0-beta.1/tutorial-basics/create-a-page",
   "draft": false,
+  "unlisted": false,
   "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/versioned_docs/version-0.0.0-beta.1/tutorial-basics/create-a-page.md",
   "tags": [],
   "version": "0.0.0-beta.1",

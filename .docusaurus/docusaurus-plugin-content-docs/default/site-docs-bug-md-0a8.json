@@ -1,5 +1,4 @@
 {
-  "unversionedId": "bug",
   "id": "bug",
   "title": "BUG",
   "description": "該文檔正在待編寫隊列中，如需為此文檔貢獻請點擊下方的編輯按鈕。",
@@ -8,6 +7,7 @@
   "slug": "/bug",
   "permalink": "/docs/bug",
   "draft": false,
+  "unlisted": false,
   "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/docs/bug.md",
   "tags": [],
   "version": "current",
@@ -18,8 +18,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "備份功能",
-    "permalink": "/docs/backup"
+    "title": "創建",
+    "permalink": "/docs/backup/create"
   },
   "next": {
     "title": "感謝名單",

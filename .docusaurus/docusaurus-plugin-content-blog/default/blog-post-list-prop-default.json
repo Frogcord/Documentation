@@ -2,24 +2,29 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "主機維護!",
+      "permalink": "/blog/2022-11-21-maintenance",
+      "unlisted": false
+    },
+    {
+      "title": "備份方式更改",
+      "permalink": "/blog/2022-09-26/update-backup",
+      "unlisted": false
+    },
+    {
+      "title": "通過驗證!",
+      "permalink": "/blog/verfied",
+      "unlisted": false
+    },
+    {
       "title": "演示文章!",
-      "permalink": "/blog/demo"
+      "permalink": "/blog/demo",
+      "unlisted": false
     },
     {
       "title": "Welcome",
-      "permalink": "/blog/welcome"
-    },
-    {
-      "title": "MDX Blog Post",
-      "permalink": "/blog/mdx-blog-post"
-    },
-    {
-      "title": "Long Blog Post",
-      "permalink": "/blog/long-blog-post"
-    },
-    {
-      "title": "First Blog Post",
-      "permalink": "/blog/first-blog-post"
+      "permalink": "/blog/welcome",
+      "unlisted": false
     }
   ]
 }

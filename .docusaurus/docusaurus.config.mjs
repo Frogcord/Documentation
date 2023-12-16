@@ -4,11 +4,11 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "Backup Mode",
-  "tagline": "Backup Mode | 一個超優質的備份機器人",
-  "url": "https://docs.backupmode.xyz",
+  "title": "Backup Core",
+  "tagline": "Backup Core | 一個超優質的多功能機器人",
+  "url": "https://bk.mwdmc.dev",
   "baseUrl": "/",
-  "onBrokenLinks": "throw",
+  "onBrokenLinks": "warn",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
   "organizationName": "Backup-Mode",
@@ -22,12 +22,15 @@ export default {
     "path": "i18n",
     "localeConfigs": {}
   },
+  "plugins": [
+    "H:\\Github\\Documentation\\node_modules\\docusaurus-lunr-search\\src\\index.js"
+  ],
   "presets": [
     [
       "classic",
       {
         "docs": {
-          "sidebarPath": "D:\\Backup-Mode\\Documentation\\sidebars.js",
+          "sidebarPath": "H:\\Github\\Documentation\\sidebars.js",
           "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main",
           "lastVersion": "current",
           "versions": {
@@ -42,12 +45,167 @@ export default {
           "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main"
         },
         "theme": {
-          "customCss": "D:\\Backup-Mode\\Documentation\\src\\css\\custom.css"
+          "customCss": "H:\\Github\\Documentation\\src\\css\\custom.css"
         }
       }
     ]
   ],
   "themeConfig": {
+    "markdown": {
+      "mermaid": true
+    },
+    "prism": {
+      "additionalLanguages": [
+        "bash",
+        "diff",
+        "json"
+      ],
+      "theme": {
+        "plain": {
+          "color": "#bfc7d5",
+          "backgroundColor": "#292d3e"
+        },
+        "styles": [
+          {
+            "types": [
+              "comment"
+            ],
+            "style": {
+              "color": "rgb(105, 112, 152)",
+              "fontStyle": "italic"
+            }
+          },
+          {
+            "types": [
+              "string",
+              "inserted"
+            ],
+            "style": {
+              "color": "rgb(195, 232, 141)"
+            }
+          },
+          {
+            "types": [
+              "number"
+            ],
+            "style": {
+              "color": "rgb(247, 140, 108)"
+            }
+          },
+          {
+            "types": [
+              "builtin",
+              "char",
+              "constant",
+              "function"
+            ],
+            "style": {
+              "color": "rgb(130, 170, 255)"
+            }
+          },
+          {
+            "types": [
+              "punctuation",
+              "selector"
+            ],
+            "style": {
+              "color": "rgb(199, 146, 234)"
+            }
+          },
+          {
+            "types": [
+              "variable"
+            ],
+            "style": {
+              "color": "rgb(191, 199, 213)"
+            }
+          },
+          {
+            "types": [
+              "class-name",
+              "attr-name"
+            ],
+            "style": {
+              "color": "rgb(255, 203, 107)"
+            }
+          },
+          {
+            "types": [
+              "tag",
+              "deleted"
+            ],
+            "style": {
+              "color": "rgb(255, 85, 114)"
+            }
+          },
+          {
+            "types": [
+              "operator"
+            ],
+            "style": {
+              "color": "rgb(137, 221, 255)"
+            }
+          },
+          {
+            "types": [
+              "boolean"
+            ],
+            "style": {
+              "color": "rgb(255, 88, 116)"
+            }
+          },
+          {
+            "types": [
+              "keyword"
+            ],
+            "style": {
+              "fontStyle": "italic"
+            }
+          },
+          {
+            "types": [
+              "doctype"
+            ],
+            "style": {
+              "color": "rgb(199, 146, 234)",
+              "fontStyle": "italic"
+            }
+          },
+          {
+            "types": [
+              "namespace"
+            ],
+            "style": {
+              "color": "rgb(178, 204, 214)"
+            }
+          },
+          {
+            "types": [
+              "url"
+            ],
+            "style": {
+              "color": "rgb(221, 221, 221)"
+            }
+          }
+        ]
+      },
+      "magicComments": [
+        {
+          "className": "theme-code-block-highlighted-line",
+          "line": "highlight-next-line",
+          "block": {
+            "start": "highlight-start",
+            "end": "highlight-end"
+          }
+        }
+      ]
+    },
+    "metadata": [
+      {
+        "name": "twitter:image:src",
+        "content": "https://cdn.discordapp.com/attachments/992235414578548776/1000654248956149861/image.png"
+      }
+    ],
     "colorMode": {
       "defaultMode": "dark",
       "disableSwitch": false,
@@ -61,12 +219,17 @@ export default {
       "isCloseable": true
     },
     "navbar": {
-      "title": "Backup Mode",
+      "title": "Backup Core",
       "logo": {
         "alt": "Logo",
         "src": "img/logo.svg"
       },
       "items": [
+        {
+          "to": "/",
+          "label": "首頁",
+          "position": "left"
+        },
         {
           "type": "doc",
           "docId": "intro",
@@ -74,7 +237,7 @@ export default {
           "label": "教學文檔"
         },
         {
-          "to": "/blog",
+          "to": "/blog/",
           "label": "部落格",
           "position": "left"
         },
@@ -149,211 +312,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2022-2022 Backup Mode. All Rights Reserved."
-    },
-    "prism": {
-      "theme": {
-        "plain": {
-          "color": "#393A34",
-          "backgroundColor": "#f6f8fa"
-        },
-        "styles": [
-          {
-            "types": [
-              "comment",
-              "prolog",
-              "doctype",
-              "cdata"
-            ],
-            "style": {
-              "color": "#999988",
-              "fontStyle": "italic"
-            }
-          },
-          {
-            "types": [
-              "namespace"
-            ],
-            "style": {
-              "opacity": 0.7
-            }
-          },
-          {
-            "types": [
-              "string",
-              "attr-value"
-            ],
-            "style": {
-              "color": "#e3116c"
-            }
-          },
-          {
-            "types": [
-              "punctuation",
-              "operator"
-            ],
-            "style": {
-              "color": "#393A34"
-            }
-          },
-          {
-            "types": [
-              "entity",
-              "url",
-              "symbol",
-              "number",
-              "boolean",
-              "variable",
-              "constant",
-              "property",
-              "regex",
-              "inserted"
-            ],
-            "style": {
-              "color": "#36acaa"
-            }
-          },
-          {
-            "types": [
-              "atrule",
-              "keyword",
-              "attr-name",
-              "selector"
-            ],
-            "style": {
-              "color": "#00a4db"
-            }
-          },
-          {
-            "types": [
-              "function",
-              "deleted",
-              "tag"
-            ],
-            "style": {
-              "color": "#d73a49"
-            }
-          },
-          {
-            "types": [
-              "function-variable"
-            ],
-            "style": {
-              "color": "#6f42c1"
-            }
-          },
-          {
-            "types": [
-              "tag",
-              "selector",
-              "keyword"
-            ],
-            "style": {
-              "color": "#00009f"
-            }
-          }
-        ]
-      },
-      "darkTheme": {
-        "plain": {
-          "color": "#F8F8F2",
-          "backgroundColor": "#282A36"
-        },
-        "styles": [
-          {
-            "types": [
-              "prolog",
-              "constant",
-              "builtin"
-            ],
-            "style": {
-              "color": "rgb(189, 147, 249)"
-            }
-          },
-          {
-            "types": [
-              "inserted",
-              "function"
-            ],
-            "style": {
-              "color": "rgb(80, 250, 123)"
-            }
-          },
-          {
-            "types": [
-              "deleted"
-            ],
-            "style": {
-              "color": "rgb(255, 85, 85)"
-            }
-          },
-          {
-            "types": [
-              "changed"
-            ],
-            "style": {
-              "color": "rgb(255, 184, 108)"
-            }
-          },
-          {
-            "types": [
-              "punctuation",
-              "symbol"
-            ],
-            "style": {
-              "color": "rgb(248, 248, 242)"
-            }
-          },
-          {
-            "types": [
-              "string",
-              "char",
-              "tag",
-              "selector"
-            ],
-            "style": {
-              "color": "rgb(255, 121, 198)"
-            }
-          },
-          {
-            "types": [
-              "keyword",
-              "variable"
-            ],
-            "style": {
-              "color": "rgb(189, 147, 249)",
-              "fontStyle": "italic"
-            }
-          },
-          {
-            "types": [
-              "comment"
-            ],
-            "style": {
-              "color": "rgb(98, 114, 164)"
-            }
-          },
-          {
-            "types": [
-              "attr-name"
-            ],
-            "style": {
-              "color": "rgb(241, 250, 140)"
-            }
-          }
-        ]
-      },
-      "additionalLanguages": [],
-      "magicComments": [
-        {
-          "className": "theme-code-block-highlighted-line",
-          "line": "highlight-next-line",
-          "block": {
-            "start": "highlight-start",
-            "end": "highlight-end"
-          }
-        }
-      ]
+      "copyright": "Copyright © 2022-2023 Backup Core. Orignal Backup Mode. All Rights Reserved."
     },
     "docs": {
       "versionPersistence": "localStorage",
@@ -362,7 +321,6 @@ export default {
         "autoCollapseCategories": false
       }
     },
-    "metadata": [],
     "tableOfContents": {
       "minHeadingLevel": 2,
       "maxHeadingLevel": 3
@@ -374,11 +332,20 @@ export default {
     "static"
   ],
   "customFields": {},
-  "plugins": [],
   "themes": [],
   "scripts": [],
+  "headTags": [],
   "stylesheets": [],
   "clientModules": [],
   "titleDelimiter": "|",
-  "noIndex": false
+  "noIndex": false,
+  "markdown": {
+    "format": "mdx",
+    "mermaid": false,
+    "mdx1Compat": {
+      "comments": true,
+      "admonitions": true,
+      "headingIds": true
+    }
+  }
 };

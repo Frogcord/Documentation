@@ -4,6 +4,7 @@
   "label": "0.0.0-beta.1",
   "banner": "unmaintained",
   "badge": true,
+  "noIndex": false,
   "className": "docs-version-0.0.0-beta.1",
   "isLast": false,
   "docsSidebars": {
@@ -12,7 +13,8 @@
         "type": "link",
         "label": "入門介紹",
         "href": "/docs/0.0.0-beta.1/",
-        "docId": "intro"
+        "docId": "intro",
+        "unlisted": false
       },
       {
         "type": "category",
@@ -24,7 +26,8 @@
             "type": "link",
             "label": "如何使用機器人",
             "href": "/docs/0.0.0-beta.1/commands",
-            "docId": "commands/commands"
+            "docId": "commands/commands",
+            "unlisted": false
           }
         ]
       },
@@ -32,13 +35,15 @@
         "type": "link",
         "label": "備份功能",
         "href": "/docs/0.0.0-beta.1/backup",
-        "docId": "backup"
+        "docId": "backup",
+        "unlisted": false
       },
       {
         "type": "link",
         "label": "感謝名單",
         "href": "/docs/0.0.0-beta.1/grateful",
-        "docId": "grateful"
+        "docId": "grateful",
+        "unlisted": false
       },
       {
         "type": "category",
@@ -50,13 +55,15 @@
             "type": "link",
             "label": "Manage Docs Versions",
             "href": "/docs/0.0.0-beta.1/tutorial-extras/manage-docs-versions",
-            "docId": "tutorial-extras/manage-docs-versions"
+            "docId": "tutorial-extras/manage-docs-versions",
+            "unlisted": false
           },
           {
             "type": "link",
             "label": "Translate your site",
             "href": "/docs/0.0.0-beta.1/tutorial-extras/translate-your-site",
-            "docId": "tutorial-extras/translate-your-site"
+            "docId": "tutorial-extras/translate-your-site",
+            "unlisted": false
           }
         ],
         "href": "/docs/0.0.0-beta.1/category/tutorial---extras"
@@ -71,37 +78,43 @@
             "type": "link",
             "label": "Create a Page",
             "href": "/docs/0.0.0-beta.1/tutorial-basics/create-a-page",
-            "docId": "tutorial-basics/create-a-page"
+            "docId": "tutorial-basics/create-a-page",
+            "unlisted": false
           },
           {
             "type": "link",
             "label": "Create a Document",
             "href": "/docs/0.0.0-beta.1/tutorial-basics/create-a-document",
-            "docId": "tutorial-basics/create-a-document"
+            "docId": "tutorial-basics/create-a-document",
+            "unlisted": false
           },
           {
             "type": "link",
             "label": "Create a Blog Post",
             "href": "/docs/0.0.0-beta.1/tutorial-basics/create-a-blog-post",
-            "docId": "tutorial-basics/create-a-blog-post"
+            "docId": "tutorial-basics/create-a-blog-post",
+            "unlisted": false
           },
           {
             "type": "link",
             "label": "Markdown Features",
             "href": "/docs/0.0.0-beta.1/tutorial-basics/markdown-features",
-            "docId": "tutorial-basics/markdown-features"
+            "docId": "tutorial-basics/markdown-features",
+            "unlisted": false
           },
           {
             "type": "link",
             "label": "Deploy your site",
             "href": "/docs/0.0.0-beta.1/tutorial-basics/deploy-your-site",
-            "docId": "tutorial-basics/deploy-your-site"
+            "docId": "tutorial-basics/deploy-your-site",
+            "unlisted": false
           },
           {
             "type": "link",
             "label": "Congratulations!",
             "href": "/docs/0.0.0-beta.1/tutorial-basics/congratulations",
-            "docId": "tutorial-basics/congratulations"
+            "docId": "tutorial-basics/congratulations",
+            "unlisted": false
           }
         ],
         "href": "/docs/0.0.0-beta.1/category/tutorial---basics"

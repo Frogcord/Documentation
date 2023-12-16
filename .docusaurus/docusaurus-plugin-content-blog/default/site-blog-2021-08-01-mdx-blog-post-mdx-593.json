@@ -17,9 +17,9 @@
   "authors": [
     {
       "name": "Kevin",
-      "title": "創辦者",
+      "title": "開發者",
       "url": "https://github.com/Kevin28576",
-      "imageURL": "https://cdn.discordapp.com/avatars/747071881169076264/a_da94757b4885cb43abbc2428d0830102.gif?size=1024",
+      "imageURL": "https://cdn.discordapp.com/avatars/747071881169076264/9aa2a62da61b3e7364dda3c165646bda.png?size=1024",
       "key": "Kevin"
     }
   ],
@@ -33,6 +33,7 @@
       "docusaurus"
     ]
   },
+  "unlisted": false,
   "prevItem": {
     "title": "Welcome",
     "permalink": "/blog/welcome"

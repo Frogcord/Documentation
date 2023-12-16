@@ -18,7 +18,12 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs">
-            Backup Mode 快速入門教學 ⏱️
+            Backup Core 快速入門教學 ⏱️
+          </Link>
+          <Link
+            className="button button--secondary button--lg"
+            to="/docs">
+            Backup Core 快速入門教學 ⏱️
           </Link>
         </div>
       </div>
@@ -32,7 +37,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="一個超優質的全中文 Discord 群組備份機器人。">
+      description="一個超優質的全中文 Discord 群組多功能機器人。">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

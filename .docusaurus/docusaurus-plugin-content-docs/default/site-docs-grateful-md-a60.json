@@ -1,5 +1,4 @@
 {
-  "unversionedId": "grateful",
   "id": "grateful",
   "title": "感謝名單",
   "description": "非常感謝以下的所有人、組織、團隊以及廠商的貢獻，否則就沒了現在的Backup Mode。",
@@ -8,6 +7,7 @@
   "slug": "/grateful",
   "permalink": "/docs/grateful",
   "draft": false,
+  "unlisted": false,
   "editUrl": "https://github.com/Backup-Mode/Documentation/tree/main/docs/grateful.md",
   "tags": [],
   "version": "current",
@@ -20,9 +20,5 @@
   "previous": {
     "title": "BUG",
     "permalink": "/docs/bug"
-  },
-  "next": {
-    "title": "Tutorial - Extras",
-    "permalink": "/docs/category/tutorial---extras"
   }
 }
